@@ -50,19 +50,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormSplash.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormSplash.Designer.cs">
+      <DependentUpon>FormSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJuegoM1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJuegoM1.Designer.cs">
+      <DependentUpon>FormJuegoM1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsuario.Designer.cs">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormSplash.resx">
+      <DependentUpon>FormSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJuegoM1.resx">
+      <DependentUpon>FormJuegoM1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsuario.resx">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -92,6 +119,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\PLUMA_180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-zero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-number-one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-hash-key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004-number-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005-number-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\006-number-four.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\007-number-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008-six.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\009-seven.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\010-number-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011-equal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012-number-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalia_usuario.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalia_usuario2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalia_usuario3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalia_usuario4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negativo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\positivo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
