@@ -58,5 +58,41 @@ namespace PruebaAnimalia.Properties {
                 this["giraffe_max_score_c_1"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string dog_max_score_c_2 {
+            get {
+                return ((string)(this["dog_max_score_c_2"]));
+            }
+            set {
+                this["dog_max_score_c_2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string bear_max_score_c_2 {
+            get {
+                return ((string)(this["bear_max_score_c_2"]));
+            }
+            set {
+                this["bear_max_score_c_2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string giraffe_max_score_c_2 {
+            get {
+                return ((string)(this["giraffe_max_score_c_2"]));
+            }
+            set {
+                this["giraffe_max_score_c_2"] = value;
+            }
+        }
     }
 }

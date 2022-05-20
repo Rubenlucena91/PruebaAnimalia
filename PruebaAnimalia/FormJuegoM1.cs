@@ -133,11 +133,8 @@ namespace PruebaAnimalia
         {
             if (desaparecer)
             {
-                Console.WriteLine("estoy fuera");
-                Console.WriteLine("tiempo " + segundoPausado +" - " + (countDownTime + 2));
                 if (segundoPausado == (countDownTime + 1))
                 {
-                    Console.WriteLine("estoy dentro");
                     label2.Text = "";
                     desaparecer = false;
                 }
@@ -147,10 +144,8 @@ namespace PruebaAnimalia
             if (countDownTime < 1)
             { 
                 int puntuacionMaxima = recuperarPuntuacionMaxima();
-                Console.WriteLine("puntuacion Actual: " + puntuacion +" - " + puntuacionMaxima);
                 if (puntuacion > puntuacionMaxima)
                 {
-                    Console.WriteLine("puntuacion Guardada");
                     guardarPuntuaciones();
                 }
                 timerPartida.Stop();
