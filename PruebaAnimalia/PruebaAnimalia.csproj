@@ -56,17 +56,23 @@
     <Compile Include="FormJuegoM2.Designer.cs">
       <DependentUpon>FormJuegoM2.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSplash.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormSplash.Designer.cs">
       <DependentUpon>FormSplash.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMenu.cs">
+    <Compile Include="FormMenuJuegos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMenu.Designer.cs">
-      <DependentUpon>FormMenu.cs</DependentUpon>
+    <Compile Include="FormMenuJuegos.Designer.cs">
+      <DependentUpon>FormMenuJuegos.cs</DependentUpon>
     </Compile>
     <Compile Include="FormJuegoM1.cs">
       <SubType>Form</SubType>
@@ -85,11 +91,14 @@
     <EmbeddedResource Include="FormJuegoM2.resx">
       <DependentUpon>FormJuegoM2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSplash.resx">
       <DependentUpon>FormSplash.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMenu.resx">
-      <DependentUpon>FormMenu.cs</DependentUpon>
+    <EmbeddedResource Include="FormMenuJuegos.resx">
+      <DependentUpon>FormMenuJuegos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormJuegoM1.resx">
       <DependentUpon>FormJuegoM1.cs</DependentUpon>
@@ -206,6 +215,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cartaZorro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalia_usuario4-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalia_usuario2-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalia_usuario-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma6-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma5-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma4-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma3-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma2-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma1-180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma2-180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma3-180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma4-180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma5-180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma6-180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma2-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma2-270.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma4-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma4-270.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma5-270.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma5-90.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
