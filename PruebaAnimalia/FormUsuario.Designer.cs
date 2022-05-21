@@ -62,9 +62,8 @@ namespace PruebaAnimalia
             this.panel1.Controls.Add(this.giraffe);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(447, 729);
+            this.panel1.Size = new System.Drawing.Size(335, 592);
             this.panel1.TabIndex = 3;
             // 
             // pictureBox5
@@ -72,10 +71,9 @@ namespace PruebaAnimalia
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = global::PruebaAnimalia.Properties.Resources.pluma5_270;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox5.Location = new System.Drawing.Point(-257, 492);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(-193, 400);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(991, 144);
+            this.pictureBox5.Size = new System.Drawing.Size(743, 117);
             this.pictureBox5.TabIndex = 6;
             this.pictureBox5.TabStop = false;
             // 
@@ -84,10 +82,9 @@ namespace PruebaAnimalia
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox6.Location = new System.Drawing.Point(-284, 79);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Location = new System.Drawing.Point(-213, 64);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(991, 144);
+            this.pictureBox6.Size = new System.Drawing.Size(743, 117);
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
             // 
@@ -98,10 +95,10 @@ namespace PruebaAnimalia
             this.giraffe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.giraffe.FlatAppearance.BorderSize = 0;
             this.giraffe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.giraffe.Location = new System.Drawing.Point(125, 265);
-            this.giraffe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.giraffe.Location = new System.Drawing.Point(94, 215);
+            this.giraffe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.giraffe.Name = "giraffe";
-            this.giraffe.Size = new System.Drawing.Size(195, 199);
+            this.giraffe.Size = new System.Drawing.Size(146, 162);
             this.giraffe.TabIndex = 2;
             this.giraffe.UseVisualStyleBackColor = false;
             this.giraffe.Click += new System.EventHandler(this.click);
@@ -114,10 +111,9 @@ namespace PruebaAnimalia
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.dog);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(447, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(335, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(447, 729);
+            this.panel2.Size = new System.Drawing.Size(335, 592);
             this.panel2.TabIndex = 4;
             // 
             // label1
@@ -125,8 +121,7 @@ namespace PruebaAnimalia
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(85, 674);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(64, 548);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(202, 24);
             this.label1.TabIndex = 7;
@@ -137,10 +132,9 @@ namespace PruebaAnimalia
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::PruebaAnimalia.Properties.Resources.pluma2_270;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(-261, 492);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(-196, 400);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(991, 144);
+            this.pictureBox2.Size = new System.Drawing.Size(743, 117);
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
@@ -149,10 +143,9 @@ namespace PruebaAnimalia
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.pluma2_90;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(-284, 79);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(-213, 64);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(991, 144);
+            this.pictureBox1.Size = new System.Drawing.Size(743, 117);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
@@ -163,10 +156,10 @@ namespace PruebaAnimalia
             this.dog.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.dog.FlatAppearance.BorderSize = 0;
             this.dog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dog.Location = new System.Drawing.Point(128, 249);
-            this.dog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dog.Location = new System.Drawing.Point(96, 202);
+            this.dog.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dog.Name = "dog";
-            this.dog.Size = new System.Drawing.Size(195, 199);
+            this.dog.Size = new System.Drawing.Size(146, 162);
             this.dog.TabIndex = 1;
             this.dog.UseVisualStyleBackColor = false;
             this.dog.Click += new System.EventHandler(this.click);
@@ -178,10 +171,9 @@ namespace PruebaAnimalia
             this.panel3.Controls.Add(this.pictureBox4);
             this.panel3.Controls.Add(this.bear);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(894, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Location = new System.Drawing.Point(670, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(447, 729);
+            this.panel3.Size = new System.Drawing.Size(335, 592);
             this.panel3.TabIndex = 5;
             // 
             // pictureBox3
@@ -189,10 +181,9 @@ namespace PruebaAnimalia
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = global::PruebaAnimalia.Properties.Resources.pluma4_270;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(-261, 492);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(-196, 400);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(991, 144);
+            this.pictureBox3.Size = new System.Drawing.Size(743, 117);
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
             // 
@@ -201,10 +192,9 @@ namespace PruebaAnimalia
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = global::PruebaAnimalia.Properties.Resources.pluma4_90;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(-285, 79);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(-214, 64);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(991, 144);
+            this.pictureBox4.Size = new System.Drawing.Size(743, 117);
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
             // 
@@ -215,27 +205,27 @@ namespace PruebaAnimalia
             this.bear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.bear.FlatAppearance.BorderSize = 0;
             this.bear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bear.Location = new System.Drawing.Point(125, 265);
-            this.bear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bear.Location = new System.Drawing.Point(94, 215);
+            this.bear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bear.Name = "bear";
-            this.bear.Size = new System.Drawing.Size(195, 199);
+            this.bear.Size = new System.Drawing.Size(146, 162);
             this.bear.TabIndex = 0;
             this.bear.UseVisualStyleBackColor = false;
             this.bear.Click += new System.EventHandler(this.click);
             // 
             // FormUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1344, 729);
+            this.ClientSize = new System.Drawing.Size(1008, 592);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "FormUsuario";
-            this.Text = "FormUsuario";
+            this.Text = "Seleccionar Usuario";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();

@@ -2,22 +2,40 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PruebaAnimalia.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="dog_max_score_c_1" Type="System.String" Scope="User">
+    <Setting Name="dog_max_score_m_1" Type="System.String" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="bear_max_score_c_1" Type="System.String" Scope="User">
+    <Setting Name="bear_max_score_m_1" Type="System.String" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="giraffe_max_score_c_1" Type="System.String" Scope="User">
+    <Setting Name="giraffe_max_score_m_1" Type="System.String" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="dog_max_score_c_2" Type="System.String" Scope="User">
+    <Setting Name="dog_max_score_l_1" Type="System.String" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="bear_max_score_c_2" Type="System.String" Scope="User">
+    <Setting Name="bear_max_score_l_1" Type="System.String" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="giraffe_max_score_c_2" Type="System.String" Scope="User">
+    <Setting Name="giraffe_max_score_l_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="bear_max_score_a_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="bear_max_score_p_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="dog_max_score_a_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="dog_max_score_p_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="giraffe_max_score_a_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="giraffe_max_score_p_1" Type="System.String" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
   </Settings>

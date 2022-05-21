@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace PruebaAnimalia
 {
-    public partial class FormJuegoM2 : Form
+    public partial class FormJuegoL1 : Form
     {
         int totalTime = 60;
         int countDownTime;
@@ -33,7 +33,7 @@ namespace PruebaAnimalia
         new KeyValuePair<String,Image>("panda",Properties.Resources.cartaPanda), new KeyValuePair<String,Image>("panda",Properties.Resources.cartaPanda),
         new KeyValuePair<String,Image>("zorro",Properties.Resources.cartaZorro), new KeyValuePair<String,Image>("zorro",Properties.Resources.cartaZorro),
     };
-        public FormJuegoM2()
+        public FormJuegoL1()
         {
             InitializeComponent();
             timerPartida.Start();
@@ -143,15 +143,15 @@ namespace PruebaAnimalia
         {
             if (FormUsuario.animalUSer.Equals("bear"))
             {
-                return int.Parse(Properties.Settings.Default.bear_max_score_c_1);
+                return int.Parse(Properties.Settings.Default.bear_max_score_m_1);
             }
             else if (FormUsuario.animalUSer.Equals("dog"))
             {
-                return int.Parse(Properties.Settings.Default.dog_max_score_c_1);
+                return int.Parse(Properties.Settings.Default.dog_max_score_m_1);
             }
             else
             {
-                return int.Parse(Properties.Settings.Default.giraffe_max_score_c_1);
+                return int.Parse(Properties.Settings.Default.giraffe_max_score_m_1);
             }
         }
 
@@ -159,17 +159,17 @@ namespace PruebaAnimalia
         {
             if (FormUsuario.animalUSer.Equals("bear"))
             {
-                Properties.Settings.Default.bear_max_score_c_2 = lb_puntos.Text;
+                Properties.Settings.Default.bear_max_score_l_1 = lb_puntos.Text;
                 Properties.Settings.Default.Save();
             }
             else if (FormUsuario.animalUSer.Equals("dog"))
             {
-                Properties.Settings.Default.dog_max_score_c_2 = lb_puntos.Text;
+                Properties.Settings.Default.dog_max_score_l_1 = lb_puntos.Text;
                 Properties.Settings.Default.Save();
             }
             else
             {
-                Properties.Settings.Default.giraffe_max_score_c_2 = lb_puntos.Text;
+                Properties.Settings.Default.giraffe_max_score_l_1 = lb_puntos.Text;
                 Properties.Settings.Default.Save();
             }
         }

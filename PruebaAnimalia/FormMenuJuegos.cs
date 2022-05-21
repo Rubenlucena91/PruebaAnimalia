@@ -24,19 +24,19 @@ namespace PruebaAnimalia
             if (FormUsuario.animalUSer.Equals("bear"))
             {
                 pictureBoxUsuario.BackgroundImage = Properties.Resources.animalia_usuario;
-                labelScoreM1.Text = Properties.Settings.Default.bear_max_score_c_1;
-                labelScoreP1.Text = Properties.Settings.Default.bear_max_score_c_2;
+                labelScoreM1.Text = Properties.Settings.Default.bear_max_score_m_1;
+                labelScoreP1.Text = Properties.Settings.Default.bear_max_score_l_1;
             }
             else if (FormUsuario.animalUSer.Equals("dog")){
                 pictureBoxUsuario.BackgroundImage = Properties.Resources.animalia_usuario2;
-                labelScoreM1.Text = Properties.Settings.Default.dog_max_score_c_1;
-                labelScoreP1.Text = Properties.Settings.Default.dog_max_score_c_2;
+                labelScoreM1.Text = Properties.Settings.Default.dog_max_score_m_1;
+                labelScoreP1.Text = Properties.Settings.Default.dog_max_score_l_1;
             }
             else
             {
                 pictureBoxUsuario.BackgroundImage = Properties.Resources.animalia_usuario4;
-                labelScoreM1.Text = Properties.Settings.Default.giraffe_max_score_c_1;
-                labelScoreP1.Text = Properties.Settings.Default.giraffe_max_score_c_2;
+                labelScoreM1.Text = Properties.Settings.Default.giraffe_max_score_m_1;
+                labelScoreP1.Text = Properties.Settings.Default.giraffe_max_score_l_1;
                 
             }
             
@@ -88,11 +88,35 @@ namespace PruebaAnimalia
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void abrirJuegoAgudeza1(object sender, EventArgs e)
+        {
+            // Creamos un hilo para abrir el form en STA(single thread application)
+            this.Close();
+            Thread thread = new Thread(openFormJuegoA1);
+            thread.SetApartmentState(ApartmentState.STA);
+            thread.Start();
+        }
+        private void abrirJuegoMemoria1(object sender, EventArgs e)
         {
             // Creamos un hilo para abrir el form en STA(single thread application)
             this.Close();
             Thread thread = new Thread(openFormJuegoM1);
+            thread.SetApartmentState(ApartmentState.STA);
+            thread.Start();
+        }
+        private void abrirJuegoLogica1(object sender, EventArgs e)
+        {
+            // Creamos un hilo para abrir el form en STA(single thread application)
+            this.Close();
+            Thread thread = new Thread(openFormJuegoL1);
+            thread.SetApartmentState(ApartmentState.STA);
+            thread.Start();
+        }
+        private void abrirJuegoPercepcion1(object sender, EventArgs e)
+        {
+            // Creamos un hilo para abrir el form en STA(single thread application)
+            this.Close();
+            Thread thread = new Thread(openFormJuegoP1);
             thread.SetApartmentState(ApartmentState.STA);
             thread.Start();
         }
@@ -102,17 +126,18 @@ namespace PruebaAnimalia
             Application.Run(new FormJuegoM1());
         }
 
-        private void openFormJuegoM2(object obj)
+        private void openFormJuegoL1(object obj)
         {
-            Application.Run(new FormJuegoM2());
+            Application.Run(new FormJuegoL1());
         }
-        private void button5_Click(object sender, EventArgs e)
+        private void openFormJuegoA1(object obj)
         {
-            // Creamos un hilo para abrir el form en STA(single thread application)
-            this.Close();
-            Thread thread = new Thread(openFormJuegoM2);
-            thread.SetApartmentState(ApartmentState.STA);
-            thread.Start();
+            Application.Run(new FormJuegoA1());
         }
+        private void openFormJuegoP1(object obj)
+        {
+            Application.Run(new FormJuegoP1());
+        }
+
     }
 }

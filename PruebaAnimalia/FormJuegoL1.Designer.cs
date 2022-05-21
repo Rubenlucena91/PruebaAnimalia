@@ -1,7 +1,7 @@
 ﻿
 namespace PruebaAnimalia
 {
-    partial class FormJuegoM2
+    partial class FormJuegoL1
     {
         /// <summary>
         /// Required designer variable.
@@ -32,6 +32,15 @@ namespace PruebaAnimalia
             this.components = new System.ComponentModel.Container();
             this.timerPartida = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lb_puntos = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.labelTime = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.labelFallos = new System.Windows.Forms.Label();
+            this.pictureBoxResultado = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
@@ -48,16 +57,9 @@ namespace PruebaAnimalia
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.labelTime = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.labelFallos = new System.Windows.Forms.Label();
-            this.pictureBoxResultado = new System.Windows.Forms.PictureBox();
-            this.lb_puntos = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxResultado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -74,8 +76,6 @@ namespace PruebaAnimalia
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxResultado)).BeginInit();
             this.SuspendLayout();
             // 
             // timerPartida
@@ -118,6 +118,100 @@ namespace PruebaAnimalia
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(503, 509);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.YellowGreen;
+            this.panel1.Controls.Add(this.lb_puntos);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.labelTime);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1008, 43);
+            this.panel1.TabIndex = 1;
+            // 
+            // lb_puntos
+            // 
+            this.lb_puntos.AccessibleName = "lb_puntos";
+            this.lb_puntos.AutoSize = true;
+            this.lb_puntos.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_puntos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lb_puntos.Location = new System.Drawing.Point(142, 6);
+            this.lb_puntos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_puntos.Name = "lb_puntos";
+            this.lb_puntos.Size = new System.Drawing.Size(24, 27);
+            this.lb_puntos.TabIndex = 27;
+            this.lb_puntos.Text = "0";
+            // 
+            // label3
+            // 
+            this.label3.AccessibleName = "lb_aciertos";
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label3.Location = new System.Drawing.Point(23, 6);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(115, 27);
+            this.label3.TabIndex = 26;
+            this.label3.Text = "Puntuacion:";
+            // 
+            // labelTime
+            // 
+            this.labelTime.AutoSize = true;
+            this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTime.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelTime.Location = new System.Drawing.Point(775, 9);
+            this.labelTime.Name = "labelTime";
+            this.labelTime.Size = new System.Drawing.Size(32, 24);
+            this.labelTime.TabIndex = 1;
+            this.labelTime.Text = "30";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(668, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Tiempo:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 263);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(89, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Numero de fallos:";
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 750;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // labelFallos
+            // 
+            this.labelFallos.AutoSize = true;
+            this.labelFallos.Location = new System.Drawing.Point(119, 263);
+            this.labelFallos.Name = "labelFallos";
+            this.labelFallos.Size = new System.Drawing.Size(19, 13);
+            this.labelFallos.TabIndex = 3;
+            this.labelFallos.Text = "00";
+            // 
+            // pictureBoxResultado
+            // 
+            this.pictureBoxResultado.BackColor = System.Drawing.SystemColors.Info;
+            this.pictureBoxResultado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBoxResultado.Location = new System.Drawing.Point(779, 225);
+            this.pictureBoxResultado.Name = "pictureBoxResultado";
+            this.pictureBoxResultado.Size = new System.Drawing.Size(184, 183);
+            this.pictureBoxResultado.TabIndex = 4;
+            this.pictureBoxResultado.TabStop = false;
             // 
             // pictureBox13
             // 
@@ -295,101 +389,7 @@ namespace PruebaAnimalia
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.image_Click);
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.YellowGreen;
-            this.panel1.Controls.Add(this.lb_puntos);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.labelTime);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1008, 43);
-            this.panel1.TabIndex = 1;
-            // 
-            // labelTime
-            // 
-            this.labelTime.AutoSize = true;
-            this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTime.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelTime.Location = new System.Drawing.Point(775, 9);
-            this.labelTime.Name = "labelTime";
-            this.labelTime.Size = new System.Drawing.Size(32, 24);
-            this.labelTime.TabIndex = 1;
-            this.labelTime.Text = "30";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(668, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tiempo:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 263);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Numero de fallos:";
-            // 
-            // timer1
-            // 
-            this.timer1.Interval = 750;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // labelFallos
-            // 
-            this.labelFallos.AutoSize = true;
-            this.labelFallos.Location = new System.Drawing.Point(119, 263);
-            this.labelFallos.Name = "labelFallos";
-            this.labelFallos.Size = new System.Drawing.Size(19, 13);
-            this.labelFallos.TabIndex = 3;
-            this.labelFallos.Text = "00";
-            // 
-            // pictureBoxResultado
-            // 
-            this.pictureBoxResultado.BackColor = System.Drawing.SystemColors.Info;
-            this.pictureBoxResultado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBoxResultado.Location = new System.Drawing.Point(779, 225);
-            this.pictureBoxResultado.Name = "pictureBoxResultado";
-            this.pictureBoxResultado.Size = new System.Drawing.Size(184, 183);
-            this.pictureBoxResultado.TabIndex = 4;
-            this.pictureBoxResultado.TabStop = false;
-            // 
-            // lb_puntos
-            // 
-            this.lb_puntos.AccessibleName = "lb_puntos";
-            this.lb_puntos.AutoSize = true;
-            this.lb_puntos.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_puntos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lb_puntos.Location = new System.Drawing.Point(142, 6);
-            this.lb_puntos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lb_puntos.Name = "lb_puntos";
-            this.lb_puntos.Size = new System.Drawing.Size(24, 27);
-            this.lb_puntos.TabIndex = 27;
-            this.lb_puntos.Text = "0";
-            // 
-            // label3
-            // 
-            this.label3.AccessibleName = "lb_aciertos";
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label3.Location = new System.Drawing.Point(23, 6);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 27);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "Puntuacion:";
-            // 
-            // FormJuegoM2
+            // FormJuegoL1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -399,9 +399,13 @@ namespace PruebaAnimalia
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "FormJuegoM2";
-            this.Text = "FormJuegoM2";
+            this.Name = "FormJuegoL1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.Text = "Juego Logica";
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxResultado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
@@ -418,9 +422,6 @@ namespace PruebaAnimalia
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxResultado)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

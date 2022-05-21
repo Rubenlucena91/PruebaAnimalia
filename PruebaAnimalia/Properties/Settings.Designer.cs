@@ -26,72 +26,144 @@ namespace PruebaAnimalia.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public string dog_max_score_c_1 {
+        public string dog_max_score_m_1 {
             get {
-                return ((string)(this["dog_max_score_c_1"]));
+                return ((string)(this["dog_max_score_m_1"]));
             }
             set {
-                this["dog_max_score_c_1"] = value;
+                this["dog_max_score_m_1"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public string bear_max_score_c_1 {
+        public string bear_max_score_m_1 {
             get {
-                return ((string)(this["bear_max_score_c_1"]));
+                return ((string)(this["bear_max_score_m_1"]));
             }
             set {
-                this["bear_max_score_c_1"] = value;
+                this["bear_max_score_m_1"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public string giraffe_max_score_c_1 {
+        public string giraffe_max_score_m_1 {
             get {
-                return ((string)(this["giraffe_max_score_c_1"]));
+                return ((string)(this["giraffe_max_score_m_1"]));
             }
             set {
-                this["giraffe_max_score_c_1"] = value;
+                this["giraffe_max_score_m_1"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public string dog_max_score_c_2 {
+        public string dog_max_score_l_1 {
             get {
-                return ((string)(this["dog_max_score_c_2"]));
+                return ((string)(this["dog_max_score_l_1"]));
             }
             set {
-                this["dog_max_score_c_2"] = value;
+                this["dog_max_score_l_1"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public string bear_max_score_c_2 {
+        public string bear_max_score_l_1 {
             get {
-                return ((string)(this["bear_max_score_c_2"]));
+                return ((string)(this["bear_max_score_l_1"]));
             }
             set {
-                this["bear_max_score_c_2"] = value;
+                this["bear_max_score_l_1"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public string giraffe_max_score_c_2 {
+        public string giraffe_max_score_l_1 {
             get {
-                return ((string)(this["giraffe_max_score_c_2"]));
+                return ((string)(this["giraffe_max_score_l_1"]));
             }
             set {
-                this["giraffe_max_score_c_2"] = value;
+                this["giraffe_max_score_l_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string bear_max_score_a_1 {
+            get {
+                return ((string)(this["bear_max_score_a_1"]));
+            }
+            set {
+                this["bear_max_score_a_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string bear_max_score_p_1 {
+            get {
+                return ((string)(this["bear_max_score_p_1"]));
+            }
+            set {
+                this["bear_max_score_p_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string dog_max_score_a_1 {
+            get {
+                return ((string)(this["dog_max_score_a_1"]));
+            }
+            set {
+                this["dog_max_score_a_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string dog_max_score_p_1 {
+            get {
+                return ((string)(this["dog_max_score_p_1"]));
+            }
+            set {
+                this["dog_max_score_p_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string giraffe_max_score_a_1 {
+            get {
+                return ((string)(this["giraffe_max_score_a_1"]));
+            }
+            set {
+                this["giraffe_max_score_a_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string giraffe_max_score_p_1 {
+            get {
+                return ((string)(this["giraffe_max_score_p_1"]));
+            }
+            set {
+                this["giraffe_max_score_p_1"] = value;
             }
         }
     }

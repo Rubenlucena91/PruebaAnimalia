@@ -233,6 +233,26 @@ namespace PruebaAnimalia.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap cabra {
+            get {
+                object obj = ResourceManager.GetObject("cabra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap cabra_sombra {
+            get {
+                object obj = ResourceManager.GetObject("cabra_sombra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap cartaBuho {
             get {
                 object obj = ResourceManager.GetObject("cartaBuho", resourceCulture);
@@ -306,6 +326,86 @@ namespace PruebaAnimalia.Properties {
         public static System.Drawing.Bitmap cartaZorro {
             get {
                 object obj = ResourceManager.GetObject("cartaZorro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap cerdo {
+            get {
+                object obj = ResourceManager.GetObject("cerdo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap cerdo_sombra {
+            get {
+                object obj = ResourceManager.GetObject("cerdo_sombra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap lobo {
+            get {
+                object obj = ResourceManager.GetObject("lobo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap lobo_sombra {
+            get {
+                object obj = ResourceManager.GetObject("lobo_sombra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap mapache {
+            get {
+                object obj = ResourceManager.GetObject("mapache", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap mapache_sombra {
+            get {
+                object obj = ResourceManager.GetObject("mapache_sombra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap mono {
+            get {
+                object obj = ResourceManager.GetObject("mono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap mono_sombra {
+            get {
+                object obj = ResourceManager.GetObject("mono_sombra", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

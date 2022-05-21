@@ -99,32 +99,32 @@ namespace PruebaAnimalia
         {
             if (FormUsuario.animalUSer.Equals("bear"))
             {
-                return int.Parse(Properties.Settings.Default.bear_max_score_c_1);
+                return int.Parse(Properties.Settings.Default.bear_max_score_m_1);
             }
             else if (FormUsuario.animalUSer.Equals("dog"))
             {
-                return int.Parse(Properties.Settings.Default.dog_max_score_c_1);
+                return int.Parse(Properties.Settings.Default.dog_max_score_m_1);
             }
             else
             {
-               return  int.Parse(Properties.Settings.Default.giraffe_max_score_c_1);
+               return  int.Parse(Properties.Settings.Default.giraffe_max_score_m_1);
             }
         }
         private void guardarPuntuaciones()
         {
             if (FormUsuario.animalUSer.Equals("bear"))
             {
-                Properties.Settings.Default.bear_max_score_c_1 = lb_puntos.Text;
+                Properties.Settings.Default.bear_max_score_m_1 = lb_puntos.Text;
                 Properties.Settings.Default.Save();
             }
             else if (FormUsuario.animalUSer.Equals("dog"))
             {
-                Properties.Settings.Default.dog_max_score_c_1 = lb_puntos.Text;
+                Properties.Settings.Default.dog_max_score_m_1 = lb_puntos.Text;
                 Properties.Settings.Default.Save();
             }
             else
             {
-                Properties.Settings.Default.giraffe_max_score_c_1 = lb_puntos.Text;
+                Properties.Settings.Default.giraffe_max_score_m_1 = lb_puntos.Text;
                 Properties.Settings.Default.Save();
             }
         }

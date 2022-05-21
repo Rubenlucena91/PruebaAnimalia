@@ -50,11 +50,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormJuegoM2.cs">
+    <Compile Include="FormJuegoA1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormJuegoM2.Designer.cs">
-      <DependentUpon>FormJuegoM2.cs</DependentUpon>
+    <Compile Include="FormJuegoA1.Designer.cs">
+      <DependentUpon>FormJuegoA1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJuegoL1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJuegoL1.Designer.cs">
+      <DependentUpon>FormJuegoL1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJuegoP1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJuegoP1.Designer.cs">
+      <DependentUpon>FormJuegoP1.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMenu.cs">
       <SubType>Form</SubType>
@@ -88,8 +100,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormJuegoM2.resx">
-      <DependentUpon>FormJuegoM2.cs</DependentUpon>
+    <EmbeddedResource Include="FormJuegoA1.resx">
+      <DependentUpon>FormJuegoA1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJuegoL1.resx">
+      <DependentUpon>FormJuegoL1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJuegoP1.resx">
+      <DependentUpon>FormJuegoP1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
@@ -290,6 +308,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pluma3-270.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cabra_sombra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerdo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerdo_sombra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lobo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lobo_sombra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapache.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapache_sombra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mono_sombra.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

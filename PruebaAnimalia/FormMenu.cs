@@ -34,7 +34,7 @@ namespace PruebaAnimalia
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FormJuegoM2 juegoForm = new FormJuegoM2();
+            FormJuegoL1 juegoForm = new FormJuegoL1();
             juegoForm.ShowDialog();
         }
 
