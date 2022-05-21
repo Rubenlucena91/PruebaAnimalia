@@ -18,6 +18,7 @@ namespace PruebaAnimalia
         {
             InitializeComponent();
             iniciarSplash();
+            //MessageBox.Show("Cada usuario guarda sus propias puntuaciones", "Selecciona tu usuario");
         }
 
         private void click(object sender, EventArgs e)
@@ -48,5 +49,6 @@ namespace PruebaAnimalia
         {
             Application.Run(new FormMenu());
         }
+
     }
 }

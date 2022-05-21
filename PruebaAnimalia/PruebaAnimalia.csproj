@@ -279,5 +279,17 @@
   <ItemGroup>
     <None Include="Resources\pluma5-90.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma6-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma6-270.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma3-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pluma3-270.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

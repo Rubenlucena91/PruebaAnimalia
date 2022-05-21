@@ -403,6 +403,26 @@ namespace PruebaAnimalia.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap pluma3_270 {
+            get {
+                object obj = ResourceManager.GetObject("pluma3_270", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pluma3_90 {
+            get {
+                object obj = ResourceManager.GetObject("pluma3_90", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap pluma4 {
             get {
                 object obj = ResourceManager.GetObject("pluma4", resourceCulture);
@@ -496,6 +516,26 @@ namespace PruebaAnimalia.Properties {
         public static System.Drawing.Bitmap pluma6_180 {
             get {
                 object obj = ResourceManager.GetObject("pluma6_180", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pluma6_270 {
+            get {
+                object obj = ResourceManager.GetObject("pluma6_270", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pluma6_90 {
+            get {
+                object obj = ResourceManager.GetObject("pluma6_90", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -23,23 +23,23 @@ namespace PruebaAnimalia
         {
             if (FormUsuario.animalUSer.Equals("bear"))
             {
-                pictureBox1.BackgroundImage = Properties.Resources.animalia_usuario;
+                pictureBoxUsuario.BackgroundImage = Properties.Resources.animalia_usuario;
                 labelScoreM1.Text = Properties.Settings.Default.bear_max_score_c_1;
-                labelScoreM2.Text = Properties.Settings.Default.bear_max_score_c_2;
+                labelScoreP1.Text = Properties.Settings.Default.bear_max_score_c_2;
             }
             else if (FormUsuario.animalUSer.Equals("dog")){
-                pictureBox1.BackgroundImage = Properties.Resources.animalia_usuario2;
+                pictureBoxUsuario.BackgroundImage = Properties.Resources.animalia_usuario2;
                 labelScoreM1.Text = Properties.Settings.Default.dog_max_score_c_1;
-                labelScoreM2.Text = Properties.Settings.Default.dog_max_score_c_2;
+                labelScoreP1.Text = Properties.Settings.Default.dog_max_score_c_2;
             }
             else
             {
-                pictureBox1.BackgroundImage = Properties.Resources.animalia_usuario4;
+                pictureBoxUsuario.BackgroundImage = Properties.Resources.animalia_usuario4;
                 labelScoreM1.Text = Properties.Settings.Default.giraffe_max_score_c_1;
-                labelScoreM2.Text = Properties.Settings.Default.giraffe_max_score_c_2;
+                labelScoreP1.Text = Properties.Settings.Default.giraffe_max_score_c_2;
+                
             }
             
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void buttonAgudeza_Click(object sender, EventArgs e)
@@ -48,6 +48,10 @@ namespace PruebaAnimalia
             panelMemoria.Visible = false;
             panelLogica.Visible = false;
             panelPercepcion.Visible = false;
+            panelTop.BackColor = Color.FromArgb(198, 202, 210);
+            panelBottom.BackColor = Color.FromArgb(198, 202, 210);
+            pictureBoxUsuario.BackColor = Color.FromArgb(225, 214, 195);
+
         }
 
         private void buttonCalculo_Click(object sender, EventArgs e)
@@ -56,6 +60,9 @@ namespace PruebaAnimalia
             panelMemoria.Visible = true;
             panelLogica.Visible = false;
             panelPercepcion.Visible = false;
+            panelTop.BackColor = Color.FromArgb(225, 214, 195);
+            panelBottom.BackColor = Color.FromArgb(225, 214, 195);
+            pictureBoxUsuario.BackColor = Color.FromArgb(198, 202, 210);
         }
 
         private void buttonLogica_Click(object sender, EventArgs e)
@@ -64,6 +71,9 @@ namespace PruebaAnimalia
             panelMemoria.Visible = false;
             panelLogica.Visible = true;
             panelPercepcion.Visible = false;
+            panelTop.BackColor = Color.FromArgb(198, 202, 210);
+            panelBottom.BackColor = Color.FromArgb(198, 202, 210);
+            pictureBoxUsuario.BackColor = Color.FromArgb(225, 214, 195);
         }
 
         private void buttonPercepcion_Click(object sender, EventArgs e)
@@ -72,6 +82,10 @@ namespace PruebaAnimalia
             panelMemoria.Visible = false;
             panelLogica.Visible = false;
             panelPercepcion.Visible = true;
+            panelTop.BackColor = Color.FromArgb(225, 214, 195);
+            panelBottom.BackColor = Color.FromArgb(225, 214, 195);
+            pictureBoxUsuario.BackColor = Color.FromArgb(198, 202, 210);
+
         }
 
         private void button4_Click(object sender, EventArgs e)
