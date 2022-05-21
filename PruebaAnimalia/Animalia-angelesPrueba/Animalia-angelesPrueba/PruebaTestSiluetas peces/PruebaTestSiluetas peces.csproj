@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3DCD8133-9E31-441E-860D-7D670E7F6251}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PruebaTestSiluetas_peces</RootNamespace>
+    <AssemblyName>PruebaTestSiluetas peces</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Carta.cs" />
+    <Compile Include="ScreenCircoStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenCircoStart.Designer.cs">
+      <DependentUpon>ScreenCircoStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenGlobos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenGlobos.Designer.cs">
+      <DependentUpon>ScreenGlobos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenJuegoCalculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenJuegoCalculo.Designer.cs">
+      <DependentUpon>ScreenJuegoCalculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenStartCalculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenStartCalculo.Designer.cs">
+      <DependentUpon>ScreenStartCalculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenStartSombras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenStartSombras.Designer.cs">
+      <DependentUpon>ScreenStartSombras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaJuegoSombras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaJuegoSombras.Designer.cs">
+      <DependentUpon>PantallaJuegoSombras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaJuegos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaJuegos.Designer.cs">
+      <DependentUpon>PantallaJuegos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ScreenCircoStart.resx">
+      <DependentUpon>ScreenCircoStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScreenGlobos.resx">
+      <DependentUpon>ScreenGlobos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScreenJuegoCalculo.resx">
+      <DependentUpon>ScreenJuegoCalculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScreenStartCalculo.resx">
+      <DependentUpon>ScreenStartCalculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScreenStartSombras.resx">
+      <DependentUpon>ScreenStartSombras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaJuegoSombras.resx">
+      <DependentUpon>PantallaJuegoSombras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-bear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01 oso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-bear-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02 oso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-bear-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03 oso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-tomato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01 tomato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02 orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-raspberry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03 raspberry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizarra.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuevadentro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globo rojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globoazul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globodorado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globonegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globoplata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\popbomb.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\popballoon.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
