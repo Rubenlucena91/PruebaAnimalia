@@ -34,8 +34,27 @@ namespace PruebaAnimalia
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FormJuegoL1 juegoForm = new FormJuegoL1();
-            juegoForm.ShowDialog();
+            mostrarJuegoAlAzar();
+        }
+        private void mostrarJuegoAlAzar()
+        {
+            Random random = new Random();
+            int randomNumber = random.Next(3);
+            if (randomNumber == 1)
+            {
+                FormJuegoL1 juegoForm = new FormJuegoL1();
+                juegoForm.ShowDialog();
+            }
+            else if(randomNumber == 2)
+            {
+                FormJuegoA1 juegoForm = new FormJuegoA1();
+                juegoForm.ShowDialog();
+            }
+            else
+            {
+                FormJuegoM1 juegoForm = new FormJuegoM1();
+                juegoForm.ShowDialog();
+            }
         }
 
     }

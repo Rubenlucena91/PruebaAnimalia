@@ -339,5 +339,14 @@
   <ItemGroup>
     <None Include="Resources\mono_sombra.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recote_memoria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recote_numeros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recote_sombras.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

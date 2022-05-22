@@ -13,7 +13,7 @@ namespace PruebaAnimalia
     public partial class FormJuegoM1 : Form
     {
         bool desaparecer = false;
-        int totalTime = 10;
+        int totalTime = 60;
         int countDownTime;
         int dificultad = 2;
         int contador = 0;
