@@ -18,11 +18,11 @@ namespace PruebaAnimalia
         {
             InitializeComponent();
             iniciarSplash();
-            //MessageBox.Show("Cada usuario guarda sus propias puntuaciones", "Selecciona tu usuario");
         }
 
         private void click(object sender, EventArgs e)
         {
+            //Dependiendo de quien pulse el boton, guarda su nombre en una variable Static para que otros puedean referenciar
             var buttonClick = (Button)sender;
             animalUSer = buttonClick.Name.ToString();
             // Creamos un hilo para abrir el segundo form en STA(single thread application)
@@ -32,6 +32,7 @@ namespace PruebaAnimalia
             thread.Start();
         }
 
+        // Metodo que inicia el hilo para que inicie el splash. duerme el hilo 5 segundos y termina
         private void iniciarSplash()
         {
             Thread thread = new Thread(new ThreadStart(startSplashForm));

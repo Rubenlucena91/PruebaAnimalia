@@ -133,6 +133,9 @@
   <data name="animalia_usuario4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalia_usuario4-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="boom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cabra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cabra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,6 +172,24 @@
   <data name="cerdo_sombra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cerdo_sombra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cuevadentro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuevadentro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="globoazul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globoazul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globodorado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globodorado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globonegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globonegro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globoplata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globoplata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globo_rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globo rojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lobo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lobo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -189,6 +210,9 @@
   </data>
   <data name="negativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\negativo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizarra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizarra.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pluma1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pluma1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,6 +280,12 @@
   <data name="pluma6_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pluma6-90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="popballoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\popballoon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="popbomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\popbomb.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="positivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\positivo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -268,14 +298,32 @@
   <data name="recote_sombras" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\recote_sombras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_001_bear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\001-bear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_001_tomato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\001-tomato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_001_zero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\001-zero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_002_bear_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\002-bear-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_002_number_one" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\002-number-one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_002_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\002-orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_003_bear_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\003-bear-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_003_hash_key" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\003-hash-key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_003_raspberry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\003-raspberry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_004_number_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\004-number-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -303,5 +351,23 @@
   </data>
   <data name="_012_number_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\012-number-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_01_oso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01 oso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_01_tomato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01 tomato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_02_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02 orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_02_oso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02 oso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_03_oso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\03 oso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_03_raspberry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\03 raspberry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

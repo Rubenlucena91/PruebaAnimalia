@@ -121,6 +121,33 @@ namespace PruebaAnimalia
             thread.Start();
         }
 
+        private void abrirJuegoGlobos(object sender, EventArgs e)
+        {
+            // Creamos un hilo para abrir el form en STA(single thread application)
+            this.Close();
+            Thread thread = new Thread(openFormJuegoGlobos);
+            thread.SetApartmentState(ApartmentState.STA);
+            thread.Start();
+        }
+
+        private void abrirJuegoCueva(object sender, EventArgs e)
+        {
+            // Creamos un hilo para abrir el form en STA(single thread application)
+            this.Close();
+            Thread thread = new Thread(openFormJuegoCueva);
+            thread.SetApartmentState(ApartmentState.STA);
+            thread.Start();
+        }
+
+        private void openFormJuegoCueva(object obj)
+        {
+            Application.Run(new PantallaJuegoSombras());
+        }
+        private void openFormJuegoGlobos(object obj)
+        {
+            Application.Run(new ScreenGlobos());
+        }
+
         private void openFormJuegoM1(object obj)
         {
             Application.Run(new FormJuegoM1());

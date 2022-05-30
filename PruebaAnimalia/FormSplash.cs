@@ -19,18 +19,5 @@ namespace PruebaAnimalia
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            // Creamos un hilo para abrir el segundo form en STA(single thread application)
-            this.Close();
-            Thread thread = new Thread(openNewForm);
-            thread.SetApartmentState(ApartmentState.STA);
-            thread.Start();
-        }
-
-        private void openNewForm(object obj)
-        {
-            Application.Run(new FormUsuario());
-        }
     }
 }

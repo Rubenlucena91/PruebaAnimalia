@@ -29,48 +29,48 @@ namespace PruebaAnimalia
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelTop = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonPartida = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelCenter = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonExamen = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panelBottom = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.buttonMenu = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel2.SuspendLayout();
+            this.panelCenter.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel3.SuspendLayout();
+            this.panelBottom.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // panelTop
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1008, 198);
-            this.panel1.TabIndex = 0;
+            this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.panelTop.Controls.Add(this.pictureBox1);
+            this.panelTop.Controls.Add(this.pictureBox4);
+            this.panelTop.Controls.Add(this.label9);
+            this.panelTop.Controls.Add(this.buttonPartida);
+            this.panelTop.Controls.Add(this.label1);
+            this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTop.Location = new System.Drawing.Point(0, 0);
+            this.panelTop.Name = "panelTop";
+            this.panelTop.Size = new System.Drawing.Size(1008, 198);
+            this.panelTop.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -105,19 +105,19 @@ namespace PruebaAnimalia
             this.label9.Text = "Pulse el boton para jugar una partida rapdia de cualquier juego de forma aleatori" +
     "a.";
             // 
-            // button1
+            // buttonPartida
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.button1.Location = new System.Drawing.Point(428, 149);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 31);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Iniciar Partida";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonPartida.BackColor = System.Drawing.Color.Black;
+            this.buttonPartida.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonPartida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPartida.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.buttonPartida.Location = new System.Drawing.Point(428, 149);
+            this.buttonPartida.Name = "buttonPartida";
+            this.buttonPartida.Size = new System.Drawing.Size(121, 31);
+            this.buttonPartida.TabIndex = 1;
+            this.buttonPartida.Text = "Iniciar Partida";
+            this.buttonPartida.UseVisualStyleBackColor = false;
+            this.buttonPartida.Click += new System.EventHandler(this.buttonPartida_Click);
             // 
             // label1
             // 
@@ -130,19 +130,19 @@ namespace PruebaAnimalia
             this.label1.TabIndex = 0;
             this.label1.Text = "Partida Rapida";
             // 
-            // panel2
+            // panelCenter
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 198);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1008, 198);
-            this.panel2.TabIndex = 1;
+            this.panelCenter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.panelCenter.Controls.Add(this.pictureBox5);
+            this.panelCenter.Controls.Add(this.pictureBox2);
+            this.panelCenter.Controls.Add(this.label4);
+            this.panelCenter.Controls.Add(this.buttonExamen);
+            this.panelCenter.Controls.Add(this.label2);
+            this.panelCenter.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelCenter.Location = new System.Drawing.Point(0, 198);
+            this.panelCenter.Name = "panelCenter";
+            this.panelCenter.Size = new System.Drawing.Size(1008, 198);
+            this.panelCenter.TabIndex = 1;
             // 
             // pictureBox5
             // 
@@ -177,18 +177,18 @@ namespace PruebaAnimalia
             this.label4.TabIndex = 8;
             this.label4.Text = "Pulse el boton Tomar un examen en el que descubriras tu alma animal.";
             // 
-            // button2
+            // buttonExamen
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.button2.Location = new System.Drawing.Point(428, 140);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 31);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Tomar Examen";
-            this.button2.UseVisualStyleBackColor = false;
+            this.buttonExamen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.buttonExamen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonExamen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonExamen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.buttonExamen.Location = new System.Drawing.Point(428, 140);
+            this.buttonExamen.Name = "buttonExamen";
+            this.buttonExamen.Size = new System.Drawing.Size(121, 31);
+            this.buttonExamen.TabIndex = 2;
+            this.buttonExamen.Text = "Tomar Examen";
+            this.buttonExamen.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -201,19 +201,19 @@ namespace PruebaAnimalia
             this.label2.TabIndex = 1;
             this.label2.Text = "Examen";
             // 
-            // panel3
+            // panelBottom
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
-            this.panel3.Controls.Add(this.pictureBox6);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 396);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1008, 198);
-            this.panel3.TabIndex = 2;
+            this.panelBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.panelBottom.Controls.Add(this.pictureBox6);
+            this.panelBottom.Controls.Add(this.pictureBox3);
+            this.panelBottom.Controls.Add(this.label5);
+            this.panelBottom.Controls.Add(this.buttonMenu);
+            this.panelBottom.Controls.Add(this.label3);
+            this.panelBottom.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelBottom.Location = new System.Drawing.Point(0, 396);
+            this.panelBottom.Name = "panelBottom";
+            this.panelBottom.Size = new System.Drawing.Size(1008, 198);
+            this.panelBottom.TabIndex = 2;
             // 
             // pictureBox6
             // 
@@ -249,19 +249,19 @@ namespace PruebaAnimalia
             this.label5.Text = "Puedes elegir cualquier juego separados por categorias como la logia o la agudeza" +
     ".";
             // 
-            // button3
+            // buttonMenu
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
-            this.button3.Location = new System.Drawing.Point(428, 132);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(121, 31);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Abrir Menu";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.click);
+            this.buttonMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.buttonMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMenu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.buttonMenu.Location = new System.Drawing.Point(428, 132);
+            this.buttonMenu.Name = "buttonMenu";
+            this.buttonMenu.Size = new System.Drawing.Size(121, 31);
+            this.buttonMenu.TabIndex = 2;
+            this.buttonMenu.Text = "Abrir Menu";
+            this.buttonMenu.UseVisualStyleBackColor = false;
+            this.buttonMenu.Click += new System.EventHandler(this.buttonMenu_Click);
             // 
             // label3
             // 
@@ -279,22 +279,22 @@ namespace PruebaAnimalia
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 592);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelBottom);
+            this.Controls.Add(this.panelCenter);
+            this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormMenu";
             this.Text = "FormMenu";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panelTop.ResumeLayout(false);
+            this.panelTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.panelCenter.ResumeLayout(false);
+            this.panelCenter.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.panelBottom.ResumeLayout(false);
+            this.panelBottom.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
@@ -303,14 +303,14 @@ namespace PruebaAnimalia
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panelTop;
+        private System.Windows.Forms.Panel panelCenter;
+        private System.Windows.Forms.Panel panelBottom;
+        private System.Windows.Forms.Button buttonPartida;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonExamen;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button buttonMenu;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label4;

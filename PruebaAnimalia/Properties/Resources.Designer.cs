@@ -63,9 +63,39 @@ namespace PruebaAnimalia.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap _001_bear {
+            get {
+                object obj = ResourceManager.GetObject("_001_bear", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap _001_tomato {
+            get {
+                object obj = ResourceManager.GetObject("_001_tomato", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap _001_zero {
             get {
                 object obj = ResourceManager.GetObject("_001_zero", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap _002_bear_1 {
+            get {
+                object obj = ResourceManager.GetObject("_002_bear_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +113,39 @@ namespace PruebaAnimalia.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap _002_orange {
+            get {
+                object obj = ResourceManager.GetObject("_002_orange", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap _003_bear_2 {
+            get {
+                object obj = ResourceManager.GetObject("_003_bear_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap _003_hash_key {
             get {
                 object obj = ResourceManager.GetObject("_003_hash_key", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap _003_raspberry {
+            get {
+                object obj = ResourceManager.GetObject("_003_raspberry", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,6 +213,26 @@ namespace PruebaAnimalia.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap _01_oso {
+            get {
+                object obj = ResourceManager.GetObject("_01_oso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap _01_tomato {
+            get {
+                object obj = ResourceManager.GetObject("_01_tomato", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap _010_number_8 {
             get {
                 object obj = ResourceManager.GetObject("_010_number_8", resourceCulture);
@@ -176,6 +256,46 @@ namespace PruebaAnimalia.Properties {
         public static System.Drawing.Bitmap _012_number_9 {
             get {
                 object obj = ResourceManager.GetObject("_012_number_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap _02_orange {
+            get {
+                object obj = ResourceManager.GetObject("_02_orange", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap _02_oso {
+            get {
+                object obj = ResourceManager.GetObject("_02_oso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap _03_oso {
+            get {
+                object obj = ResourceManager.GetObject("_03_oso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap _03_raspberry {
+            get {
+                object obj = ResourceManager.GetObject("_03_raspberry", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +346,16 @@ namespace PruebaAnimalia.Properties {
         public static System.Drawing.Bitmap animalia_usuario4 {
             get {
                 object obj = ResourceManager.GetObject("animalia_usuario4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap boom {
+            get {
+                object obj = ResourceManager.GetObject("boom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -351,6 +481,65 @@ namespace PruebaAnimalia.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream cuevadentro {
+            get {
+                return ResourceManager.GetStream("cuevadentro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap globo_rojo {
+            get {
+                object obj = ResourceManager.GetObject("globo_rojo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap globoazul {
+            get {
+                object obj = ResourceManager.GetObject("globoazul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap globodorado {
+            get {
+                object obj = ResourceManager.GetObject("globodorado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap globonegro {
+            get {
+                object obj = ResourceManager.GetObject("globonegro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap globoplata {
+            get {
+                object obj = ResourceManager.GetObject("globoplata", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap lobo {
@@ -417,6 +606,15 @@ namespace PruebaAnimalia.Properties {
             get {
                 object obj = ResourceManager.GetObject("negativo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream pizarra {
+            get {
+                return ResourceManager.GetStream("pizarra", resourceCulture);
             }
         }
         
@@ -637,6 +835,24 @@ namespace PruebaAnimalia.Properties {
             get {
                 object obj = ResourceManager.GetObject("pluma6_90", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream popballoon {
+            get {
+                return ResourceManager.GetStream("popballoon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream popbomb {
+            get {
+                return ResourceManager.GetStream("popbomb", resourceCulture);
             }
         }
         

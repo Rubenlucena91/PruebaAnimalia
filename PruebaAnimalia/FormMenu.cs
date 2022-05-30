@@ -18,7 +18,7 @@ namespace PruebaAnimalia
             InitializeComponent();
         }
 
-        private void click(object sender, EventArgs e)
+        private void buttonMenu_Click(object sender, EventArgs e)
         {
             // Creamos un hilo para abrir el segundo form en STA(single thread application)
             this.Close();
@@ -32,7 +32,7 @@ namespace PruebaAnimalia
             Application.Run(new FormMenuJuegos());
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonPartida_Click(object sender, EventArgs e)
         {
             mostrarJuegoAlAzar();
         }
