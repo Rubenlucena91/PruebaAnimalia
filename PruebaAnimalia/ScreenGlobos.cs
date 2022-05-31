@@ -117,7 +117,11 @@ namespace PruebaAnimalia
         {
             if (e.KeyCode == Keys.Enter && gameOver==true)  
             {
-                Restart(); 
+                Restart();
+            }
+            else
+            {
+                this.Close();
             }
         }
 

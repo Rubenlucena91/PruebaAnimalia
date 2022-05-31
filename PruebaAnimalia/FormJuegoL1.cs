@@ -12,7 +12,7 @@ namespace PruebaAnimalia
 {
     public partial class FormJuegoL1 : Form
     {
-        int totalTime = 60;
+        int totalTime = 45;
         int countDownTime;
         int numFails = 0;
         int puntuacion = 0;
@@ -143,15 +143,15 @@ namespace PruebaAnimalia
         {
             if (FormUsuario.animalUSer.Equals("bear"))
             {
-                return int.Parse(Properties.Settings.Default.bear_max_score_m_1);
+                return int.Parse(Properties.Settings.Default.bear_max_score_l_1);
             }
             else if (FormUsuario.animalUSer.Equals("dog"))
             {
-                return int.Parse(Properties.Settings.Default.dog_max_score_m_1);
+                return int.Parse(Properties.Settings.Default.dog_max_score_l_1);
             }
             else
             {
-                return int.Parse(Properties.Settings.Default.giraffe_max_score_m_1);
+                return int.Parse(Properties.Settings.Default.giraffe_max_score_l_1);
             }
         }
 
@@ -188,8 +188,8 @@ namespace PruebaAnimalia
                     guardarPuntuaciones();
                 }
                 timerPartida.Stop();
-                MessageBox.Show("You matched all the icons!", "Time remainign: " + countDownTime);
-                
+                MessageBox.Show("VICTORIA!!", "Tiempo restante: " + countDownTime);
+                this.Close();
             }
         }
         private void image_Click(object sender, EventArgs e)
@@ -234,7 +234,11 @@ namespace PruebaAnimalia
             if (countDownTime < 1)
             {
                 timerPartida.Stop();
-                MessageBox.Show("You matched all the icons!", "Congratulations");
+                if (pictureBoxResultado!= null)
+                {
+                    MessageBox.Show("Has perdido!!!", "Vuelve a intentarlo");
+                }
+
                 this.Close();
             }
         }
@@ -248,6 +252,13 @@ namespace PruebaAnimalia
             //pictureBoxResultado.BackgroundImage = null;
             firstClicked = null;
             secondClicked = null;
+        }
+
+
+        private void FormJuegoL1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            timerPartida.Stop();
+            timer1.Stop();
         }
     }
 }

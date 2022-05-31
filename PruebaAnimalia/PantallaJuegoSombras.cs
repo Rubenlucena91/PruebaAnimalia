@@ -18,6 +18,7 @@ namespace PruebaAnimalia
         List<Carta> tempList;
         int acierto = 0;
         bool igual = false;
+        System.Media.SoundPlayer cueva;
         Carta cartaSombra = new Carta("OsoGirl", 1, Properties.Resources._01_oso);
         Carta carta2Sombra = new Carta("OsoBoy", 2, Properties.Resources._02_oso);
         Carta carta3Sombra = new Carta("OsoKid", 3, Properties.Resources._03_oso);
@@ -44,6 +45,7 @@ namespace PruebaAnimalia
             listaCartaParejas.Add(carta4Sombra, carta4);
             listaCartaParejas.Add(carta5Sombra, carta5);
             listaCartaParejas.Add(carta6Sombra, carta6);
+            randomizedPictureBox2(pictureBox1, cambiarPictureBoxSombra2());
         }
         
 
@@ -56,30 +58,15 @@ namespace PruebaAnimalia
         {
             timer1.Interval = 1000;
             timer1.Start();
-            System.Media.SoundPlayer cueva = new System.Media.SoundPlayer(Properties.Resources.cuevadentro);
+            cueva = new System.Media.SoundPlayer(Properties.Resources.cuevadentro);
             cueva.Play();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            // si es el mismo que la sombra suma un punto
-            String senderTipo = "el sender es del tipo " + sender.GetType();
-            String senderNombre = "el sender es del nombre " + sender.GetType().Name;
-            String senderFullNombre = "el sender full del nombre " + sender.GetType().FullName;
-
-            String eTipo = "el events es del tipo " + e.GetType();
-            String eNombre = "el events es del nombre " + e.GetType().Name;
-            String eFullNombre = "el events full del nombre " + e.GetType().FullName;
-
-            String prieba = sender.ToString();
-            Console.WriteLine("has clickado en: " + eTipo);
-            Console.WriteLine("has clickado en1: " + senderTipo);
-            Console.WriteLine("has clickado en2: " + eNombre);
-            Console.WriteLine("has clickado en3: " + senderNombre);
-            Console.WriteLine("has clickado en4: " + eFullNombre);
-            Console.WriteLine("has clickado en5: " + senderFullNombre);
-            Console.WriteLine("has clickado en: " + prieba);
-            if (1 == 1)
+            PictureBox clickedPB = sender as PictureBox;
+            string nombreComparacion = clickedPB.Name.ToString();
+            if (nombreComparacion.Equals(pictureBox4.Name.ToString()))
             {
                 acierto++;
             }
@@ -207,9 +194,14 @@ namespace PruebaAnimalia
             }
             else
             {
-                // actions when the timer ends 
-                lb_puntos.Text = "GAME OVER";
+                this.Close();
             }
+        }
+
+        private void PantallaJuegoSombras_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            cueva.Stop();
+            timer1.Stop();
         }
     }
 }

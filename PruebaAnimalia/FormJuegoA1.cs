@@ -165,8 +165,49 @@ namespace PruebaAnimalia
             if (countDownTime < 1)
             {
                 timerPartida.Stop();
+                int puntuacionMaxima = recuperarPuntuacionMaxima();
+                if (puntuacion > puntuacionMaxima)
+                {
+                    guardarPuntuaciones();
+                }
                 MessageBox.Show("You matched all the icons!", "Congratulations");
                 this.Close();
+            }
+        }
+
+
+        private int recuperarPuntuacionMaxima()
+        {
+            if (FormUsuario.animalUSer.Equals("bear"))
+            {
+                return int.Parse(Properties.Settings.Default.bear_max_score_p_1);
+            }
+            else if (FormUsuario.animalUSer.Equals("dog"))
+            {
+                return int.Parse(Properties.Settings.Default.dog_max_score_p_1);
+            }
+            else
+            {
+                return int.Parse(Properties.Settings.Default.giraffe_max_score_p_1);
+            }
+        }
+
+        private void guardarPuntuaciones()
+        {
+            if (FormUsuario.animalUSer.Equals("bear"))
+            {
+                Properties.Settings.Default.bear_max_score_p_1 = lb_puntos.Text;
+                Properties.Settings.Default.Save();
+            }
+            else if (FormUsuario.animalUSer.Equals("dog"))
+            {
+                Properties.Settings.Default.dog_max_score_p_1 = lb_puntos.Text;
+                Properties.Settings.Default.Save();
+            }
+            else
+            {
+                Properties.Settings.Default.giraffe_max_score_p_1 = lb_puntos.Text;
+                Properties.Settings.Default.Save();
             }
         }
 
@@ -187,5 +228,9 @@ namespace PruebaAnimalia
 
         }
 
+        private void FormJuegoA1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            timerPartida.Stop();
+        }
     }
 }

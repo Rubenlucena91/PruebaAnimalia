@@ -25,19 +25,23 @@ namespace PruebaAnimalia
             {
                 pictureBoxUsuario.BackgroundImage = Properties.Resources.animalia_usuario;
                 labelScoreM1.Text = Properties.Settings.Default.bear_max_score_m_1;
-                labelScoreP1.Text = Properties.Settings.Default.bear_max_score_l_1;
+                labelScoreP1.Text = Properties.Settings.Default.bear_max_score_p_1;
+                labelScoreL1.Text = Properties.Settings.Default.bear_max_score_l_1;
+
             }
             else if (FormUsuario.animalUSer.Equals("dog")){
                 pictureBoxUsuario.BackgroundImage = Properties.Resources.animalia_usuario2;
                 labelScoreM1.Text = Properties.Settings.Default.dog_max_score_m_1;
-                labelScoreP1.Text = Properties.Settings.Default.dog_max_score_l_1;
+                labelScoreP1.Text = Properties.Settings.Default.dog_max_score_p_1;
+                labelScoreL1.Text = Properties.Settings.Default.bear_max_score_l_1;
             }
             else
             {
                 pictureBoxUsuario.BackgroundImage = Properties.Resources.animalia_usuario4;
                 labelScoreM1.Text = Properties.Settings.Default.giraffe_max_score_m_1;
-                labelScoreP1.Text = Properties.Settings.Default.giraffe_max_score_l_1;
-                
+                labelScoreP1.Text = Properties.Settings.Default.giraffe_max_score_p_1;
+                labelScoreL1.Text = Properties.Settings.Default.bear_max_score_l_1;
+
             }
             
         }

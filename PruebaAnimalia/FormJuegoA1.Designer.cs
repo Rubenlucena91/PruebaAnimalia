@@ -70,9 +70,9 @@ namespace PruebaAnimalia
             this.panelTop.Controls.Add(this.label3);
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
-            this.panelTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelTop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(1344, 65);
+            this.panelTop.Size = new System.Drawing.Size(1008, 53);
             this.panelTop.TabIndex = 25;
             // 
             // label4
@@ -82,7 +82,8 @@ namespace PruebaAnimalia
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.label4.Location = new System.Drawing.Point(1153, 20);
+            this.label4.Location = new System.Drawing.Point(865, 16);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 23);
             this.label4.TabIndex = 26;
@@ -94,7 +95,8 @@ namespace PruebaAnimalia
             this.labelTime.AutoSize = true;
             this.labelTime.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.labelTime.Location = new System.Drawing.Point(1243, 20);
+            this.labelTime.Location = new System.Drawing.Point(932, 16);
+            this.labelTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTime.Name = "labelTime";
             this.labelTime.Size = new System.Drawing.Size(30, 23);
             this.labelTime.TabIndex = 25;
@@ -106,7 +108,8 @@ namespace PruebaAnimalia
             this.lb_puntos.AutoSize = true;
             this.lb_puntos.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_puntos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.lb_puntos.Location = new System.Drawing.Point(183, 20);
+            this.lb_puntos.Location = new System.Drawing.Point(137, 16);
+            this.lb_puntos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_puntos.Name = "lb_puntos";
             this.lb_puntos.Size = new System.Drawing.Size(20, 23);
             this.lb_puntos.TabIndex = 25;
@@ -119,7 +122,8 @@ namespace PruebaAnimalia
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.label3.Location = new System.Drawing.Point(51, 20);
+            this.label3.Location = new System.Drawing.Point(38, 16);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 23);
             this.label3.TabIndex = 23;
@@ -138,19 +142,19 @@ namespace PruebaAnimalia
             this.panelJuego.Controls.Add(this.pictureBox4);
             this.panelJuego.Controls.Add(this.pictureBox3);
             this.panelJuego.Controls.Add(this.pictureBox2);
-            this.panelJuego.Location = new System.Drawing.Point(13, 286);
-            this.panelJuego.Margin = new System.Windows.Forms.Padding(4);
+            this.panelJuego.Location = new System.Drawing.Point(10, 232);
             this.panelJuego.Name = "panelJuego";
-            this.panelJuego.Size = new System.Drawing.Size(1318, 430);
+            this.panelJuego.Size = new System.Drawing.Size(988, 349);
             this.panelJuego.TabIndex = 26;
             // 
             // pictureBoxRight
             // 
             this.pictureBoxRight.BackgroundImage = global::PruebaAnimalia.Properties.Resources.cabra;
             this.pictureBoxRight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBoxRight.Location = new System.Drawing.Point(997, 60);
+            this.pictureBoxRight.Location = new System.Drawing.Point(748, 49);
+            this.pictureBoxRight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBoxRight.Name = "pictureBoxRight";
-            this.pictureBoxRight.Size = new System.Drawing.Size(184, 207);
+            this.pictureBoxRight.Size = new System.Drawing.Size(138, 168);
             this.pictureBoxRight.TabIndex = 32;
             this.pictureBoxRight.TabStop = false;
             this.pictureBoxRight.Tag = "cabra";
@@ -160,9 +164,10 @@ namespace PruebaAnimalia
             // 
             this.pictureBoxLeft.BackgroundImage = global::PruebaAnimalia.Properties.Resources.mono;
             this.pictureBoxLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBoxLeft.Location = new System.Drawing.Point(137, 60);
+            this.pictureBoxLeft.Location = new System.Drawing.Point(103, 49);
+            this.pictureBoxLeft.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBoxLeft.Name = "pictureBoxLeft";
-            this.pictureBoxLeft.Size = new System.Drawing.Size(184, 207);
+            this.pictureBoxLeft.Size = new System.Drawing.Size(138, 168);
             this.pictureBoxLeft.TabIndex = 31;
             this.pictureBoxLeft.TabStop = false;
             this.pictureBoxLeft.Tag = "mono";
@@ -172,10 +177,9 @@ namespace PruebaAnimalia
             // 
             this.pictureBox4.BackgroundImage = global::PruebaAnimalia.Properties.Resources.cerdo;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(567, 176);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Location = new System.Drawing.Point(425, 143);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(184, 207);
+            this.pictureBox4.Size = new System.Drawing.Size(138, 168);
             this.pictureBox4.TabIndex = 30;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Tag = "cerdo";
@@ -185,10 +189,9 @@ namespace PruebaAnimalia
             // 
             this.pictureBox3.BackgroundImage = global::PruebaAnimalia.Properties.Resources.mapache;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(782, 110);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Location = new System.Drawing.Point(586, 89);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(184, 207);
+            this.pictureBox3.Size = new System.Drawing.Size(138, 168);
             this.pictureBox3.TabIndex = 29;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Tag = "mapache";
@@ -198,10 +201,9 @@ namespace PruebaAnimalia
             // 
             this.pictureBox2.BackgroundImage = global::PruebaAnimalia.Properties.Resources.lobo;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(352, 110);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Location = new System.Drawing.Point(264, 89);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(184, 207);
+            this.pictureBox2.Size = new System.Drawing.Size(138, 168);
             this.pictureBox2.TabIndex = 28;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Tag = "lobo";
@@ -211,10 +213,9 @@ namespace PruebaAnimalia
             // 
             this.pictureBoxSombra.BackgroundImage = global::PruebaAnimalia.Properties.Resources.lobo_sombra;
             this.pictureBoxSombra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBoxSombra.Location = new System.Drawing.Point(580, 71);
-            this.pictureBoxSombra.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBoxSombra.Location = new System.Drawing.Point(435, 58);
             this.pictureBoxSombra.Name = "pictureBoxSombra";
-            this.pictureBoxSombra.Size = new System.Drawing.Size(184, 207);
+            this.pictureBoxSombra.Size = new System.Drawing.Size(138, 168);
             this.pictureBoxSombra.TabIndex = 27;
             this.pictureBoxSombra.TabStop = false;
             this.pictureBoxSombra.Tag = "lobo_sombra";
@@ -223,10 +224,9 @@ namespace PruebaAnimalia
             // 
             this.pictureBoxResultado.BackColor = System.Drawing.SystemColors.Info;
             this.pictureBoxResultado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBoxResultado.Location = new System.Drawing.Point(1118, 82);
-            this.pictureBoxResultado.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBoxResultado.Location = new System.Drawing.Point(838, 67);
             this.pictureBoxResultado.Name = "pictureBoxResultado";
-            this.pictureBoxResultado.Size = new System.Drawing.Size(213, 196);
+            this.pictureBoxResultado.Size = new System.Drawing.Size(160, 159);
             this.pictureBoxResultado.TabIndex = 28;
             this.pictureBoxResultado.TabStop = false;
             // 
@@ -243,44 +243,48 @@ namespace PruebaAnimalia
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(37, 103);
+            this.label1.Location = new System.Drawing.Point(28, 84);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 16);
+            this.label1.Size = new System.Drawing.Size(78, 13);
             this.label1.TabIndex = 29;
             this.label1.Text = "Tiempo check:";
             // 
             // labelTC
             // 
             this.labelTC.AutoSize = true;
-            this.labelTC.Location = new System.Drawing.Point(184, 103);
+            this.labelTC.Location = new System.Drawing.Point(138, 84);
+            this.labelTC.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTC.Name = "labelTC";
-            this.labelTC.Size = new System.Drawing.Size(22, 16);
+            this.labelTC.Size = new System.Drawing.Size(19, 13);
             this.labelTC.TabIndex = 30;
             this.labelTC.Text = "00";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 138);
+            this.label5.Location = new System.Drawing.Point(30, 112);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(123, 16);
+            this.label5.Size = new System.Drawing.Size(95, 13);
             this.label5.TabIndex = 31;
             this.label5.Text = "Tiempo responder:";
             // 
             // labelTR
             // 
             this.labelTR.AutoSize = true;
-            this.labelTR.Location = new System.Drawing.Point(187, 138);
+            this.labelTR.Location = new System.Drawing.Point(140, 112);
+            this.labelTR.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelTR.Name = "labelTR";
-            this.labelTR.Size = new System.Drawing.Size(22, 16);
+            this.labelTR.Size = new System.Drawing.Size(19, 13);
             this.labelTR.TabIndex = 32;
             this.labelTR.Text = "00";
             // 
             // FormJuegoA1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1344, 729);
+            this.ClientSize = new System.Drawing.Size(1008, 592);
             this.Controls.Add(this.labelTR);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.labelTC);
@@ -290,11 +294,11 @@ namespace PruebaAnimalia
             this.Controls.Add(this.panelJuego);
             this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FormJuegoA1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Juego Agudeza";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormJuegoA1_FormClosed);
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
             this.panelJuego.ResumeLayout(false);
