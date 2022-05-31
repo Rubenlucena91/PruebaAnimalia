@@ -51,6 +51,7 @@ namespace PruebaAnimalia
             panelTop.BackColor = Color.FromArgb(198, 202, 210);
             panelBottom.BackColor = Color.FromArgb(198, 202, 210);
             pictureBoxUsuario.BackColor = Color.FromArgb(225, 214, 195);
+            buttonVolver.BackColor = Color.FromArgb(225, 214, 195);
 
         }
 
@@ -63,6 +64,7 @@ namespace PruebaAnimalia
             panelTop.BackColor = Color.FromArgb(225, 214, 195);
             panelBottom.BackColor = Color.FromArgb(225, 214, 195);
             pictureBoxUsuario.BackColor = Color.FromArgb(198, 202, 210);
+            buttonVolver.BackColor = Color.FromArgb(198, 202, 210);
         }
 
         private void buttonLogica_Click(object sender, EventArgs e)
@@ -74,6 +76,7 @@ namespace PruebaAnimalia
             panelTop.BackColor = Color.FromArgb(198, 202, 210);
             panelBottom.BackColor = Color.FromArgb(198, 202, 210);
             pictureBoxUsuario.BackColor = Color.FromArgb(225, 214, 195);
+            buttonVolver.BackColor = Color.FromArgb(225, 214, 195);
         }
 
         private void buttonPercepcion_Click(object sender, EventArgs e)
@@ -85,85 +88,55 @@ namespace PruebaAnimalia
             panelTop.BackColor = Color.FromArgb(225, 214, 195);
             panelBottom.BackColor = Color.FromArgb(225, 214, 195);
             pictureBoxUsuario.BackColor = Color.FromArgb(198, 202, 210);
+            buttonVolver.BackColor = Color.FromArgb(198, 202, 210);
 
         }
 
         private void abrirJuegoAgudeza1(object sender, EventArgs e)
         {
-            // Creamos un hilo para abrir el form en STA(single thread application)
-            this.Close();
-            Thread thread = new Thread(openFormJuegoA1);
-            thread.SetApartmentState(ApartmentState.STA);
-            thread.Start();
+            FormJuegoA1 juegoForm = new FormJuegoA1();
+            juegoForm.ShowDialog();
         }
         private void abrirJuegoMemoria1(object sender, EventArgs e)
         {
-            // Creamos un hilo para abrir el form en STA(single thread application)
-            this.Close();
-            Thread thread = new Thread(openFormJuegoM1);
-            thread.SetApartmentState(ApartmentState.STA);
-            thread.Start();
+            FormJuegoM1 juegoForm = new FormJuegoM1();
+            juegoForm.ShowDialog();
         }
         private void abrirJuegoLogica1(object sender, EventArgs e)
         {
-            // Creamos un hilo para abrir el form en STA(single thread application)
-            this.Close();
-            Thread thread = new Thread(openFormJuegoL1);
-            thread.SetApartmentState(ApartmentState.STA);
-            thread.Start();
+            FormJuegoL1 juegoForm = new FormJuegoL1();
+            juegoForm.ShowDialog();
         }
         private void abrirJuegoPercepcion1(object sender, EventArgs e)
         {
-            // Creamos un hilo para abrir el form en STA(single thread application)
-            this.Close();
-            Thread thread = new Thread(openFormJuegoP1);
-            thread.SetApartmentState(ApartmentState.STA);
-            thread.Start();
+            FormJuegoP1 juegoForm = new FormJuegoP1();
+            juegoForm.ShowDialog();
         }
 
         private void abrirJuegoGlobos(object sender, EventArgs e)
         {
-            // Creamos un hilo para abrir el form en STA(single thread application)
-            this.Close();
-            Thread thread = new Thread(openFormJuegoGlobos);
-            thread.SetApartmentState(ApartmentState.STA);
-            thread.Start();
+            ScreenGlobos juegoForm = new ScreenGlobos();
+            juegoForm.ShowDialog();
         }
 
         private void abrirJuegoCueva(object sender, EventArgs e)
         {
+            PantallaJuegoSombras juegoForm = new PantallaJuegoSombras();
+            juegoForm.ShowDialog();
+        }
+
+        private void abrirMenu(object sender, EventArgs e)
+        {
             // Creamos un hilo para abrir el form en STA(single thread application)
+            FormUsuario.counter = 1;
             this.Close();
-            Thread thread = new Thread(openFormJuegoCueva);
+            Thread thread = new Thread(openFormMenu);
             thread.SetApartmentState(ApartmentState.STA);
             thread.Start();
         }
-
-        private void openFormJuegoCueva(object obj)
+        private void openFormMenu(object obj)
         {
-            Application.Run(new PantallaJuegoSombras());
-        }
-        private void openFormJuegoGlobos(object obj)
-        {
-            Application.Run(new ScreenGlobos());
-        }
-
-        private void openFormJuegoM1(object obj)
-        {
-            Application.Run(new FormJuegoM1());
-        }
-
-        private void openFormJuegoL1(object obj)
-        {
-            Application.Run(new FormJuegoL1());
-        }
-        private void openFormJuegoA1(object obj)
-        {
-            Application.Run(new FormJuegoA1());
-        }
-        private void openFormJuegoP1(object obj)
-        {
-            Application.Run(new FormJuegoP1());
+            Application.Run(new FormUsuario());
         }
 
     }

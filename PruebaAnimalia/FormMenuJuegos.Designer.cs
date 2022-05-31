@@ -31,7 +31,14 @@ namespace PruebaAnimalia
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenuJuegos));
             this.panelLeft = new System.Windows.Forms.Panel();
+            this.buttonVolver = new System.Windows.Forms.Button();
+            this.pictureBoxUsuario = new System.Windows.Forms.PictureBox();
+            this.buttonLogica = new System.Windows.Forms.Button();
+            this.buttonAgudeza = new System.Windows.Forms.Button();
+            this.buttonPercepcion = new System.Windows.Forms.Button();
+            this.buttonMemoria = new System.Windows.Forms.Button();
             this.panelTop = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelAgudeza = new System.Windows.Forms.Panel();
             this.panelAJuego1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
@@ -39,6 +46,7 @@ namespace PruebaAnimalia
             this.label11 = new System.Windows.Forms.Label();
             this.labelScoreA1 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.buttonJuegoA1 = new System.Windows.Forms.Button();
             this.panelLogica = new System.Windows.Forms.Panel();
             this.panelLJuego1 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
@@ -46,13 +54,22 @@ namespace PruebaAnimalia
             this.label3 = new System.Windows.Forms.Label();
             this.labelScoreL1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.buttonJuegoL1 = new System.Windows.Forms.Button();
             this.panelPercepcion = new System.Windows.Forms.Panel();
+            this.panelPJuego2 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.panelPJuego1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.labelScoreP1 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.buttonJuegoP1 = new System.Windows.Forms.Button();
             this.panelMemoria = new System.Windows.Forms.Panel();
             this.panelMJuego1 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
@@ -60,46 +77,31 @@ namespace PruebaAnimalia
             this.label2 = new System.Windows.Forms.Label();
             this.labelScoreM1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.panelBottom = new System.Windows.Forms.Panel();
-            this.panelPJuego2 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.buttonJuegoA1 = new System.Windows.Forms.Button();
             this.buttonJuegoM1 = new System.Windows.Forms.Button();
-            this.buttonJuegoL1 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.buttonJuegoP1 = new System.Windows.Forms.Button();
-            this.pictureBoxUsuario = new System.Windows.Forms.PictureBox();
-            this.buttonLogica = new System.Windows.Forms.Button();
-            this.buttonAgudeza = new System.Windows.Forms.Button();
-            this.buttonPercepcion = new System.Windows.Forms.Button();
-            this.buttonMemoria = new System.Windows.Forms.Button();
+            this.panelBottom = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panelLeft.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).BeginInit();
             this.panelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelAgudeza.SuspendLayout();
             this.panelAJuego1.SuspendLayout();
             this.panelLogica.SuspendLayout();
             this.panelLJuego1.SuspendLayout();
             this.panelPercepcion.SuspendLayout();
+            this.panelPJuego2.SuspendLayout();
             this.panelPJuego1.SuspendLayout();
             this.panelMemoria.SuspendLayout();
             this.panelMJuego1.SuspendLayout();
             this.panelBottom.SuspendLayout();
-            this.panelPJuego2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).BeginInit();
             this.SuspendLayout();
             // 
             // panelLeft
             // 
             this.panelLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
             this.panelLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelLeft.Controls.Add(this.buttonVolver);
             this.panelLeft.Controls.Add(this.pictureBoxUsuario);
             this.panelLeft.Controls.Add(this.buttonLogica);
             this.panelLeft.Controls.Add(this.buttonAgudeza);
@@ -111,6 +113,103 @@ namespace PruebaAnimalia
             this.panelLeft.Size = new System.Drawing.Size(200, 592);
             this.panelLeft.TabIndex = 0;
             // 
+            // buttonVolver
+            // 
+            this.buttonVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.buttonVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonVolver.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonVolver.Location = new System.Drawing.Point(0, 458);
+            this.buttonVolver.Name = "buttonVolver";
+            this.buttonVolver.Size = new System.Drawing.Size(206, 134);
+            this.buttonVolver.TabIndex = 8;
+            this.buttonVolver.Text = "USUARIOS";
+            this.buttonVolver.UseVisualStyleBackColor = false;
+            this.buttonVolver.Click += new System.EventHandler(this.abrirMenu);
+            // 
+            // pictureBoxUsuario
+            // 
+            this.pictureBoxUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.pictureBoxUsuario.BackgroundImage = global::PruebaAnimalia.Properties.Resources.animalia_portada2;
+            this.pictureBoxUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBoxUsuario.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxUsuario.Name = "pictureBoxUsuario";
+            this.pictureBoxUsuario.Size = new System.Drawing.Size(200, 134);
+            this.pictureBoxUsuario.TabIndex = 7;
+            this.pictureBoxUsuario.TabStop = false;
+            // 
+            // buttonLogica
+            // 
+            this.buttonLogica.BackColor = System.Drawing.Color.Transparent;
+            this.buttonLogica.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonLogica.FlatAppearance.BorderSize = 0;
+            this.buttonLogica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonLogica.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLogica.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.buttonLogica.Image = ((System.Drawing.Image)(resources.GetObject("buttonLogica.Image")));
+            this.buttonLogica.Location = new System.Drawing.Point(0, 327);
+            this.buttonLogica.Name = "buttonLogica";
+            this.buttonLogica.Size = new System.Drawing.Size(200, 32);
+            this.buttonLogica.TabIndex = 6;
+            this.buttonLogica.Text = "   Logica";
+            this.buttonLogica.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonLogica.UseVisualStyleBackColor = false;
+            this.buttonLogica.Click += new System.EventHandler(this.buttonLogica_Click);
+            // 
+            // buttonAgudeza
+            // 
+            this.buttonAgudeza.BackColor = System.Drawing.Color.Transparent;
+            this.buttonAgudeza.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonAgudeza.FlatAppearance.BorderSize = 0;
+            this.buttonAgudeza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAgudeza.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAgudeza.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.buttonAgudeza.Image = ((System.Drawing.Image)(resources.GetObject("buttonAgudeza.Image")));
+            this.buttonAgudeza.Location = new System.Drawing.Point(0, 151);
+            this.buttonAgudeza.Name = "buttonAgudeza";
+            this.buttonAgudeza.Size = new System.Drawing.Size(200, 32);
+            this.buttonAgudeza.TabIndex = 0;
+            this.buttonAgudeza.Text = "   Agudeza";
+            this.buttonAgudeza.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonAgudeza.UseVisualStyleBackColor = false;
+            this.buttonAgudeza.Click += new System.EventHandler(this.buttonAgudeza_Click);
+            // 
+            // buttonPercepcion
+            // 
+            this.buttonPercepcion.BackColor = System.Drawing.Color.Transparent;
+            this.buttonPercepcion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonPercepcion.FlatAppearance.BorderSize = 0;
+            this.buttonPercepcion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonPercepcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPercepcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.buttonPercepcion.Image = ((System.Drawing.Image)(resources.GetObject("buttonPercepcion.Image")));
+            this.buttonPercepcion.Location = new System.Drawing.Point(0, 415);
+            this.buttonPercepcion.Name = "buttonPercepcion";
+            this.buttonPercepcion.Size = new System.Drawing.Size(200, 32);
+            this.buttonPercepcion.TabIndex = 4;
+            this.buttonPercepcion.Text = "   Percepcion";
+            this.buttonPercepcion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonPercepcion.UseVisualStyleBackColor = false;
+            this.buttonPercepcion.Click += new System.EventHandler(this.buttonPercepcion_Click);
+            // 
+            // buttonMemoria
+            // 
+            this.buttonMemoria.BackColor = System.Drawing.Color.Transparent;
+            this.buttonMemoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonMemoria.FlatAppearance.BorderSize = 0;
+            this.buttonMemoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMemoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMemoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.buttonMemoria.Image = ((System.Drawing.Image)(resources.GetObject("buttonMemoria.Image")));
+            this.buttonMemoria.Location = new System.Drawing.Point(0, 239);
+            this.buttonMemoria.Name = "buttonMemoria";
+            this.buttonMemoria.Size = new System.Drawing.Size(200, 32);
+            this.buttonMemoria.TabIndex = 2;
+            this.buttonMemoria.Text = "  Numeros";
+            this.buttonMemoria.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonMemoria.UseVisualStyleBackColor = false;
+            this.buttonMemoria.Click += new System.EventHandler(this.buttonCalculo_Click);
+            // 
             // panelTop
             // 
             this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
@@ -121,6 +220,17 @@ namespace PruebaAnimalia
             this.panelTop.Name = "panelTop";
             this.panelTop.Size = new System.Drawing.Size(808, 134);
             this.panelTop.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::PruebaAnimalia.Properties.Resources.pluma3_90;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(136, -38);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(523, 213);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // panelAgudeza
             // 
@@ -205,6 +315,18 @@ namespace PruebaAnimalia
             this.label14.TabIndex = 3;
             this.label14.Text = "BOOM BOOM";
             // 
+            // buttonJuegoA1
+            // 
+            this.buttonJuegoA1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.Captura_globos;
+            this.buttonJuegoA1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonJuegoA1.FlatAppearance.BorderSize = 0;
+            this.buttonJuegoA1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonJuegoA1.Location = new System.Drawing.Point(177, 3);
+            this.buttonJuegoA1.Name = "buttonJuegoA1";
+            this.buttonJuegoA1.Size = new System.Drawing.Size(269, 245);
+            this.buttonJuegoA1.TabIndex = 1;
+            this.buttonJuegoA1.UseVisualStyleBackColor = true;
+            // 
             // panelLogica
             // 
             this.panelLogica.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
@@ -288,6 +410,17 @@ namespace PruebaAnimalia
             this.label7.TabIndex = 3;
             this.label7.Text = "Buscar Pareja";
             // 
+            // buttonJuegoL1
+            // 
+            this.buttonJuegoL1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.recote_memoria;
+            this.buttonJuegoL1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonJuegoL1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonJuegoL1.Location = new System.Drawing.Point(177, 3);
+            this.buttonJuegoL1.Name = "buttonJuegoL1";
+            this.buttonJuegoL1.Size = new System.Drawing.Size(266, 241);
+            this.buttonJuegoL1.TabIndex = 1;
+            this.buttonJuegoL1.UseVisualStyleBackColor = false;
+            // 
             // panelPercepcion
             // 
             this.panelPercepcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
@@ -297,6 +430,91 @@ namespace PruebaAnimalia
             this.panelPercepcion.Name = "panelPercepcion";
             this.panelPercepcion.Size = new System.Drawing.Size(808, 570);
             this.panelPercepcion.TabIndex = 5;
+            // 
+            // panelPJuego2
+            // 
+            this.panelPJuego2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.panelPJuego2.Controls.Add(this.button5);
+            this.panelPJuego2.Controls.Add(this.label6);
+            this.panelPJuego2.Controls.Add(this.label13);
+            this.panelPJuego2.Controls.Add(this.label15);
+            this.panelPJuego2.Controls.Add(this.label16);
+            this.panelPJuego2.Controls.Add(this.button6);
+            this.panelPJuego2.Location = new System.Drawing.Point(408, 132);
+            this.panelPJuego2.Name = "panelPJuego2";
+            this.panelPJuego2.Size = new System.Drawing.Size(391, 248);
+            this.panelPJuego2.TabIndex = 6;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.button5.Location = new System.Drawing.Point(16, 158);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(121, 31);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Jugar";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.abrirJuegoCueva);
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.label6.Location = new System.Drawing.Point(9, 65);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(163, 56);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Descubre que se encuentra escondido en la sombra";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.label13.Location = new System.Drawing.Point(8, 214);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(104, 20);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "Puntuacion:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.label15.Location = new System.Drawing.Point(117, 215);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(17, 18);
+            this.label15.TabIndex = 4;
+            this.label15.Text = "0";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.label16.Location = new System.Drawing.Point(8, 34);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(129, 20);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "Siluetas Cueva";
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImage = global::PruebaAnimalia.Properties.Resources.Captura_Cueva;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.Location = new System.Drawing.Point(177, 3);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(211, 235);
+            this.button6.TabIndex = 1;
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // panelPJuego1
             // 
@@ -371,6 +589,17 @@ namespace PruebaAnimalia
             this.label12.Size = new System.Drawing.Size(152, 20);
             this.label12.TabIndex = 3;
             this.label12.Text = "Siluetas Animales";
+            // 
+            // buttonJuegoP1
+            // 
+            this.buttonJuegoP1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.recote_sombras;
+            this.buttonJuegoP1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonJuegoP1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonJuegoP1.Location = new System.Drawing.Point(177, 3);
+            this.buttonJuegoP1.Name = "buttonJuegoP1";
+            this.buttonJuegoP1.Size = new System.Drawing.Size(269, 245);
+            this.buttonJuegoP1.TabIndex = 1;
+            this.buttonJuegoP1.UseVisualStyleBackColor = true;
             // 
             // panelMemoria
             // 
@@ -455,6 +684,16 @@ namespace PruebaAnimalia
             this.label8.TabIndex = 3;
             this.label8.Text = "Recuerda el numero";
             // 
+            // buttonJuegoM1
+            // 
+            this.buttonJuegoM1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.recote_numeros;
+            this.buttonJuegoM1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonJuegoM1.Location = new System.Drawing.Point(177, 0);
+            this.buttonJuegoM1.Name = "buttonJuegoM1";
+            this.buttonJuegoM1.Size = new System.Drawing.Size(269, 248);
+            this.buttonJuegoM1.TabIndex = 1;
+            this.buttonJuegoM1.UseVisualStyleBackColor = true;
+            // 
             // panelBottom
             // 
             this.panelBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
@@ -466,80 +705,6 @@ namespace PruebaAnimalia
             this.panelBottom.Size = new System.Drawing.Size(808, 134);
             this.panelBottom.TabIndex = 6;
             // 
-            // panelPJuego2
-            // 
-            this.panelPJuego2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
-            this.panelPJuego2.Controls.Add(this.button5);
-            this.panelPJuego2.Controls.Add(this.label6);
-            this.panelPJuego2.Controls.Add(this.label13);
-            this.panelPJuego2.Controls.Add(this.label15);
-            this.panelPJuego2.Controls.Add(this.label16);
-            this.panelPJuego2.Controls.Add(this.button6);
-            this.panelPJuego2.Location = new System.Drawing.Point(408, 132);
-            this.panelPJuego2.Name = "panelPJuego2";
-            this.panelPJuego2.Size = new System.Drawing.Size(391, 248);
-            this.panelPJuego2.TabIndex = 6;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
-            this.button5.Location = new System.Drawing.Point(16, 158);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 31);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Jugar";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.abrirJuegoCueva);
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.label6.Location = new System.Drawing.Point(9, 65);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(163, 56);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Descubre que se encuentra escondido en la sombra";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.label13.Location = new System.Drawing.Point(8, 214);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(104, 20);
-            this.label13.TabIndex = 5;
-            this.label13.Text = "Puntuacion:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.label15.Location = new System.Drawing.Point(117, 215);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(17, 18);
-            this.label15.TabIndex = 4;
-            this.label15.Text = "0";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.label16.Location = new System.Drawing.Point(8, 34);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(129, 20);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "Siluetas Cueva";
-            // 
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = global::PruebaAnimalia.Properties.Resources.pluma3_270;
@@ -550,155 +715,6 @@ namespace PruebaAnimalia
             this.pictureBox3.Size = new System.Drawing.Size(523, 218);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::PruebaAnimalia.Properties.Resources.pluma3_90;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(136, -38);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(523, 213);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // buttonJuegoA1
-            // 
-            this.buttonJuegoA1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.Captura_globos;
-            this.buttonJuegoA1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonJuegoA1.FlatAppearance.BorderSize = 0;
-            this.buttonJuegoA1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonJuegoA1.Location = new System.Drawing.Point(177, 3);
-            this.buttonJuegoA1.Name = "buttonJuegoA1";
-            this.buttonJuegoA1.Size = new System.Drawing.Size(269, 245);
-            this.buttonJuegoA1.TabIndex = 1;
-            this.buttonJuegoA1.UseVisualStyleBackColor = true;
-            // 
-            // buttonJuegoM1
-            // 
-            this.buttonJuegoM1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.recote_numeros;
-            this.buttonJuegoM1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonJuegoM1.Location = new System.Drawing.Point(177, 0);
-            this.buttonJuegoM1.Name = "buttonJuegoM1";
-            this.buttonJuegoM1.Size = new System.Drawing.Size(269, 248);
-            this.buttonJuegoM1.TabIndex = 1;
-            this.buttonJuegoM1.UseVisualStyleBackColor = true;
-            // 
-            // buttonJuegoL1
-            // 
-            this.buttonJuegoL1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.recote_memoria;
-            this.buttonJuegoL1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonJuegoL1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonJuegoL1.Location = new System.Drawing.Point(177, 3);
-            this.buttonJuegoL1.Name = "buttonJuegoL1";
-            this.buttonJuegoL1.Size = new System.Drawing.Size(266, 241);
-            this.buttonJuegoL1.TabIndex = 1;
-            this.buttonJuegoL1.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackgroundImage = global::PruebaAnimalia.Properties.Resources.Captura_Cueva;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Location = new System.Drawing.Point(177, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(211, 235);
-            this.button6.TabIndex = 1;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // buttonJuegoP1
-            // 
-            this.buttonJuegoP1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.recote_sombras;
-            this.buttonJuegoP1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonJuegoP1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonJuegoP1.Location = new System.Drawing.Point(177, 3);
-            this.buttonJuegoP1.Name = "buttonJuegoP1";
-            this.buttonJuegoP1.Size = new System.Drawing.Size(269, 245);
-            this.buttonJuegoP1.TabIndex = 1;
-            this.buttonJuegoP1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBoxUsuario
-            // 
-            this.pictureBoxUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.pictureBoxUsuario.BackgroundImage = global::PruebaAnimalia.Properties.Resources.animalia_portada2;
-            this.pictureBoxUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBoxUsuario.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxUsuario.Name = "pictureBoxUsuario";
-            this.pictureBoxUsuario.Size = new System.Drawing.Size(200, 134);
-            this.pictureBoxUsuario.TabIndex = 7;
-            this.pictureBoxUsuario.TabStop = false;
-            // 
-            // buttonLogica
-            // 
-            this.buttonLogica.BackColor = System.Drawing.Color.Transparent;
-            this.buttonLogica.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonLogica.FlatAppearance.BorderSize = 0;
-            this.buttonLogica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonLogica.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLogica.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.buttonLogica.Image = ((System.Drawing.Image)(resources.GetObject("buttonLogica.Image")));
-            this.buttonLogica.Location = new System.Drawing.Point(0, 379);
-            this.buttonLogica.Name = "buttonLogica";
-            this.buttonLogica.Size = new System.Drawing.Size(200, 32);
-            this.buttonLogica.TabIndex = 6;
-            this.buttonLogica.Text = "   Logica";
-            this.buttonLogica.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonLogica.UseVisualStyleBackColor = false;
-            this.buttonLogica.Click += new System.EventHandler(this.buttonLogica_Click);
-            // 
-            // buttonAgudeza
-            // 
-            this.buttonAgudeza.BackColor = System.Drawing.Color.Transparent;
-            this.buttonAgudeza.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonAgudeza.FlatAppearance.BorderSize = 0;
-            this.buttonAgudeza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAgudeza.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAgudeza.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.buttonAgudeza.Image = ((System.Drawing.Image)(resources.GetObject("buttonAgudeza.Image")));
-            this.buttonAgudeza.Location = new System.Drawing.Point(0, 151);
-            this.buttonAgudeza.Name = "buttonAgudeza";
-            this.buttonAgudeza.Size = new System.Drawing.Size(200, 32);
-            this.buttonAgudeza.TabIndex = 0;
-            this.buttonAgudeza.Text = "   Agudeza";
-            this.buttonAgudeza.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonAgudeza.UseVisualStyleBackColor = false;
-            this.buttonAgudeza.Click += new System.EventHandler(this.buttonAgudeza_Click);
-            // 
-            // buttonPercepcion
-            // 
-            this.buttonPercepcion.BackColor = System.Drawing.Color.Transparent;
-            this.buttonPercepcion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonPercepcion.FlatAppearance.BorderSize = 0;
-            this.buttonPercepcion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonPercepcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPercepcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.buttonPercepcion.Image = ((System.Drawing.Image)(resources.GetObject("buttonPercepcion.Image")));
-            this.buttonPercepcion.Location = new System.Drawing.Point(0, 493);
-            this.buttonPercepcion.Name = "buttonPercepcion";
-            this.buttonPercepcion.Size = new System.Drawing.Size(200, 32);
-            this.buttonPercepcion.TabIndex = 4;
-            this.buttonPercepcion.Text = "   Percepcion";
-            this.buttonPercepcion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonPercepcion.UseVisualStyleBackColor = false;
-            this.buttonPercepcion.Click += new System.EventHandler(this.buttonPercepcion_Click);
-            // 
-            // buttonMemoria
-            // 
-            this.buttonMemoria.BackColor = System.Drawing.Color.Transparent;
-            this.buttonMemoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonMemoria.FlatAppearance.BorderSize = 0;
-            this.buttonMemoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMemoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMemoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.buttonMemoria.Image = ((System.Drawing.Image)(resources.GetObject("buttonMemoria.Image")));
-            this.buttonMemoria.Location = new System.Drawing.Point(0, 265);
-            this.buttonMemoria.Name = "buttonMemoria";
-            this.buttonMemoria.Size = new System.Drawing.Size(200, 32);
-            this.buttonMemoria.TabIndex = 2;
-            this.buttonMemoria.Text = "  Numeros";
-            this.buttonMemoria.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonMemoria.UseVisualStyleBackColor = false;
-            this.buttonMemoria.Click += new System.EventHandler(this.buttonCalculo_Click);
             // 
             // FormMenuJuegos
             // 
@@ -718,7 +734,9 @@ namespace PruebaAnimalia
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Menu Juegos";
             this.panelLeft.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).EndInit();
             this.panelTop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelAgudeza.ResumeLayout(false);
             this.panelAJuego1.ResumeLayout(false);
             this.panelAJuego1.PerformLayout();
@@ -726,17 +744,15 @@ namespace PruebaAnimalia
             this.panelLJuego1.ResumeLayout(false);
             this.panelLJuego1.PerformLayout();
             this.panelPercepcion.ResumeLayout(false);
+            this.panelPJuego2.ResumeLayout(false);
+            this.panelPJuego2.PerformLayout();
             this.panelPJuego1.ResumeLayout(false);
             this.panelPJuego1.PerformLayout();
             this.panelMemoria.ResumeLayout(false);
             this.panelMJuego1.ResumeLayout(false);
             this.panelMJuego1.PerformLayout();
             this.panelBottom.ResumeLayout(false);
-            this.panelPJuego2.ResumeLayout(false);
-            this.panelPJuego2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -792,5 +808,6 @@ namespace PruebaAnimalia
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button buttonVolver;
     }
 }

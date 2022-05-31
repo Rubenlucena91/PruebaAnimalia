@@ -13,11 +13,15 @@ namespace PruebaAnimalia
 {
     public partial class FormUsuario : Form
     {
+        public static int counter = 0;
         public static string animalUSer ="";
         public FormUsuario()
         {
             InitializeComponent();
-            iniciarSplash();
+            if(counter == 0)
+            {
+               iniciarSplash();
+            }
         }
 
         private void click(object sender, EventArgs e)

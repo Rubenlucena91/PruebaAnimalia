@@ -39,7 +39,7 @@ namespace PruebaAnimalia
         private void mostrarJuegoAlAzar()
         {
             Random random = new Random();
-            int randomNumber = random.Next(3);
+            int randomNumber = random.Next(5);
             if (randomNumber == 1)
             {
                 FormJuegoL1 juegoForm = new FormJuegoL1();
@@ -50,9 +50,19 @@ namespace PruebaAnimalia
                 FormJuegoA1 juegoForm = new FormJuegoA1();
                 juegoForm.ShowDialog();
             }
-            else
+            else if (randomNumber == 3)
             {
                 FormJuegoM1 juegoForm = new FormJuegoM1();
+                juegoForm.ShowDialog();
+            }
+            else if (randomNumber == 4)
+            {
+                ScreenGlobos juegoForm = new ScreenGlobos();
+                juegoForm.ShowDialog();
+            }
+            else if (randomNumber == 5)
+            {
+                PantallaJuegoSombras juegoForm = new PantallaJuegoSombras();
                 juegoForm.ShowDialog();
             }
         }
