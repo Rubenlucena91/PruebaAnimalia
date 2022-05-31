@@ -61,24 +61,24 @@ namespace PruebaAnimalia
             this.labelScoreM1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panelBottom = new System.Windows.Forms.Panel();
+            this.panelPJuego2 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.buttonJuegoA1 = new System.Windows.Forms.Button();
             this.buttonJuegoM1 = new System.Windows.Forms.Button();
             this.buttonJuegoL1 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.buttonJuegoP1 = new System.Windows.Forms.Button();
             this.pictureBoxUsuario = new System.Windows.Forms.PictureBox();
             this.buttonLogica = new System.Windows.Forms.Button();
             this.buttonAgudeza = new System.Windows.Forms.Button();
             this.buttonPercepcion = new System.Windows.Forms.Button();
             this.buttonMemoria = new System.Windows.Forms.Button();
-            this.panelMJuego2 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
             this.panelLeft.SuspendLayout();
             this.panelTop.SuspendLayout();
             this.panelAgudeza.SuspendLayout();
@@ -90,10 +90,10 @@ namespace PruebaAnimalia
             this.panelMemoria.SuspendLayout();
             this.panelMJuego1.SuspendLayout();
             this.panelBottom.SuspendLayout();
+            this.panelPJuego2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).BeginInit();
-            this.panelMJuego2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelLeft
@@ -291,6 +291,7 @@ namespace PruebaAnimalia
             // panelPercepcion
             // 
             this.panelPercepcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.panelPercepcion.Controls.Add(this.panelPJuego2);
             this.panelPercepcion.Controls.Add(this.panelPJuego1);
             this.panelPercepcion.Location = new System.Drawing.Point(200, 31);
             this.panelPercepcion.Name = "panelPercepcion";
@@ -306,9 +307,9 @@ namespace PruebaAnimalia
             this.panelPJuego1.Controls.Add(this.labelScoreP1);
             this.panelPJuego1.Controls.Add(this.label12);
             this.panelPJuego1.Controls.Add(this.buttonJuegoP1);
-            this.panelPJuego1.Location = new System.Drawing.Point(181, 132);
+            this.panelPJuego1.Location = new System.Drawing.Point(8, 132);
             this.panelPJuego1.Name = "panelPJuego1";
-            this.panelPJuego1.Size = new System.Drawing.Size(446, 248);
+            this.panelPJuego1.Size = new System.Drawing.Size(391, 248);
             this.panelPJuego1.TabIndex = 5;
             // 
             // button1
@@ -367,14 +368,13 @@ namespace PruebaAnimalia
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
             this.label12.Location = new System.Drawing.Point(8, 34);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(74, 20);
+            this.label12.Size = new System.Drawing.Size(152, 20);
             this.label12.TabIndex = 3;
-            this.label12.Text = "Siluetas";
+            this.label12.Text = "Siluetas Animales";
             // 
             // panelMemoria
             // 
             this.panelMemoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.panelMemoria.Controls.Add(this.panelMJuego2);
             this.panelMemoria.Controls.Add(this.panelMJuego1);
             this.panelMemoria.Location = new System.Drawing.Point(200, 31);
             this.panelMemoria.Name = "panelMemoria";
@@ -390,9 +390,9 @@ namespace PruebaAnimalia
             this.panelMJuego1.Controls.Add(this.labelScoreM1);
             this.panelMJuego1.Controls.Add(this.label8);
             this.panelMJuego1.Controls.Add(this.buttonJuegoM1);
-            this.panelMJuego1.Location = new System.Drawing.Point(386, 139);
+            this.panelMJuego1.Location = new System.Drawing.Point(181, 132);
             this.panelMJuego1.Name = "panelMJuego1";
-            this.panelMJuego1.Size = new System.Drawing.Size(419, 248);
+            this.panelMJuego1.Size = new System.Drawing.Size(446, 248);
             this.panelMJuego1.TabIndex = 3;
             // 
             // button4
@@ -466,6 +466,80 @@ namespace PruebaAnimalia
             this.panelBottom.Size = new System.Drawing.Size(808, 134);
             this.panelBottom.TabIndex = 6;
             // 
+            // panelPJuego2
+            // 
+            this.panelPJuego2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.panelPJuego2.Controls.Add(this.button5);
+            this.panelPJuego2.Controls.Add(this.label6);
+            this.panelPJuego2.Controls.Add(this.label13);
+            this.panelPJuego2.Controls.Add(this.label15);
+            this.panelPJuego2.Controls.Add(this.label16);
+            this.panelPJuego2.Controls.Add(this.button6);
+            this.panelPJuego2.Location = new System.Drawing.Point(408, 132);
+            this.panelPJuego2.Name = "panelPJuego2";
+            this.panelPJuego2.Size = new System.Drawing.Size(391, 248);
+            this.panelPJuego2.TabIndex = 6;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
+            this.button5.Location = new System.Drawing.Point(16, 158);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(121, 31);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Jugar";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.abrirJuegoCueva);
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.label6.Location = new System.Drawing.Point(9, 65);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(163, 56);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Descubre que se encuentra escondido en la sombra";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.label13.Location = new System.Drawing.Point(8, 214);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(104, 20);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "Puntuacion:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
+            this.label15.Location = new System.Drawing.Point(117, 215);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(17, 18);
+            this.label15.TabIndex = 4;
+            this.label15.Text = "0";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
+            this.label16.Location = new System.Drawing.Point(8, 34);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(129, 20);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "Siluetas Cueva";
+            // 
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = global::PruebaAnimalia.Properties.Resources.pluma3_270;
@@ -490,7 +564,7 @@ namespace PruebaAnimalia
             // 
             // buttonJuegoA1
             // 
-            this.buttonJuegoA1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.recote_sombras;
+            this.buttonJuegoA1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.Captura_globos;
             this.buttonJuegoA1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.buttonJuegoA1.FlatAppearance.BorderSize = 0;
             this.buttonJuegoA1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -504,9 +578,9 @@ namespace PruebaAnimalia
             // 
             this.buttonJuegoM1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.recote_numeros;
             this.buttonJuegoM1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonJuegoM1.Location = new System.Drawing.Point(177, 3);
+            this.buttonJuegoM1.Location = new System.Drawing.Point(177, 0);
             this.buttonJuegoM1.Name = "buttonJuegoM1";
-            this.buttonJuegoM1.Size = new System.Drawing.Size(269, 235);
+            this.buttonJuegoM1.Size = new System.Drawing.Size(269, 248);
             this.buttonJuegoM1.TabIndex = 1;
             this.buttonJuegoM1.UseVisualStyleBackColor = true;
             // 
@@ -521,10 +595,22 @@ namespace PruebaAnimalia
             this.buttonJuegoL1.TabIndex = 1;
             this.buttonJuegoL1.UseVisualStyleBackColor = false;
             // 
+            // button6
+            // 
+            this.button6.BackgroundImage = global::PruebaAnimalia.Properties.Resources.Captura_Cueva;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.Location = new System.Drawing.Point(177, 3);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(211, 235);
+            this.button6.TabIndex = 1;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
             // buttonJuegoP1
             // 
             this.buttonJuegoP1.BackgroundImage = global::PruebaAnimalia.Properties.Resources.recote_sombras;
             this.buttonJuegoP1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonJuegoP1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonJuegoP1.Location = new System.Drawing.Point(177, 3);
             this.buttonJuegoP1.Name = "buttonJuegoP1";
             this.buttonJuegoP1.Size = new System.Drawing.Size(269, 245);
@@ -614,89 +700,6 @@ namespace PruebaAnimalia
             this.buttonMemoria.UseVisualStyleBackColor = false;
             this.buttonMemoria.Click += new System.EventHandler(this.buttonCalculo_Click);
             // 
-            // panelMJuego2
-            // 
-            this.panelMJuego2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
-            this.panelMJuego2.Controls.Add(this.button5);
-            this.panelMJuego2.Controls.Add(this.label6);
-            this.panelMJuego2.Controls.Add(this.label13);
-            this.panelMJuego2.Controls.Add(this.label15);
-            this.panelMJuego2.Controls.Add(this.label16);
-            this.panelMJuego2.Controls.Add(this.button6);
-            this.panelMJuego2.Location = new System.Drawing.Point(6, 139);
-            this.panelMJuego2.Name = "panelMJuego2";
-            this.panelMJuego2.Size = new System.Drawing.Size(374, 248);
-            this.panelMJuego2.TabIndex = 4;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(96)))), ((int)(((byte)(111)))));
-            this.button5.Location = new System.Drawing.Point(16, 158);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 31);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Jugar";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.label6.Location = new System.Drawing.Point(9, 65);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(163, 56);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Aparecera un numero tienes que escribir la cadena con la calculadora";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.label13.Location = new System.Drawing.Point(8, 214);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(104, 20);
-            this.label13.TabIndex = 5;
-            this.label13.Text = "Puntuacion:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(202)))), ((int)(((byte)(210)))));
-            this.label15.Location = new System.Drawing.Point(117, 215);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(17, 18);
-            this.label15.TabIndex = 4;
-            this.label15.Text = "0";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(214)))), ((int)(((byte)(195)))));
-            this.label16.Location = new System.Drawing.Point(8, 34);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(171, 20);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "Recuerda el numero";
-            // 
-            // button6
-            // 
-            this.button6.BackgroundImage = global::PruebaAnimalia.Properties.Resources.recote_numeros;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Location = new System.Drawing.Point(177, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(269, 235);
-            this.button6.TabIndex = 1;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
             // FormMenuJuegos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -729,11 +732,11 @@ namespace PruebaAnimalia
             this.panelMJuego1.ResumeLayout(false);
             this.panelMJuego1.PerformLayout();
             this.panelBottom.ResumeLayout(false);
+            this.panelPJuego2.ResumeLayout(false);
+            this.panelPJuego2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsuario)).EndInit();
-            this.panelMJuego2.ResumeLayout(false);
-            this.panelMJuego2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -782,7 +785,7 @@ namespace PruebaAnimalia
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Panel panelMJuego2;
+        private System.Windows.Forms.Panel panelPJuego2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label13;

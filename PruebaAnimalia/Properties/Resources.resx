@@ -142,6 +142,12 @@
   <data name="cabra_sombra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cabra_sombra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Captura_Cueva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura_Cueva.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura_globos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura_globos.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cartaBuho" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cartaBuho.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

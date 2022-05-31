@@ -433,5 +433,11 @@
   <ItemGroup>
     <None Include="Resources\03 raspberry.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura_globos.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura_Cueva.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

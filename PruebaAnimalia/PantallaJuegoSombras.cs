@@ -56,7 +56,6 @@ namespace PruebaAnimalia
         {
             timer1.Interval = 1000;
             timer1.Start();
-            pictureBox5.Image = Properties.Resources._001_bear;
             System.Media.SoundPlayer cueva = new System.Media.SoundPlayer(Properties.Resources.cuevadentro);
             cueva.Play();
         }
